@@ -1,0 +1,15 @@
+Description,
+,
+About:,
+id,A unique identifier for each place in the dataset.
+place_name,The name or title of the place.
+description,"A brief description or information about the place, which may include details about its features, historical significance, or any notable characteristics."
+category,"Category of place included Alam, Pegunungan, Sejarah dan Budaya, Tempat Rekreasi, Tempat Ibadah, Desa Wisata, Perbelanjaan, and Edukasi"
+province,The province in which the city is located. 
+city,The city in which the place is located.
+price,The price or cost associated with visiting or accessing the place. This is included of ticket prices.
+coordinate,This column might contain information related to the geographical coordinates of the place.
+lat,"The latitude coordinate of the place's location, which indicates its position on the Earth's surface."
+long,"The longitude coordinate of the place's location, specifying its east-west position on the Earth."
+metadata,"The metadata included of place_name, description, and category of dataset"
+dir,The directory of each image place
