@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03d399bafafde2892a884771902a5c35 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03d399bafafde2892a884771902a5c35" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03d399bafafde2892a884771902a5c35 = L.map(
+                "map_03d399bafafde2892a884771902a5c35",
+                {
+                    center: [-5.658270309200011, 115.88429310049405],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_baa49c60b94357f298cb25cd8e7ff799 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+            var marker_771bee99330b930f65a6a3933e67e2b9 = L.marker(
+                [-3.4957114, 114.808764],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_b8287f16c7eb95796ff5e987e87f2825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3390dbe5e5c4b8aaa3c832d0e9aab34 = $(`<div id="html_a3390dbe5e5c4b8aaa3c832d0e9aab34" style="width: 100.0%; height: 100.0%;">Amanah Borneo Park</div>`)[0];
+                popup_b8287f16c7eb95796ff5e987e87f2825.setContent(html_a3390dbe5e5c4b8aaa3c832d0e9aab34);
+            
+        
+
+        marker_771bee99330b930f65a6a3933e67e2b9.bindPopup(popup_b8287f16c7eb95796ff5e987e87f2825)
+        ;
+
+        
+    
+    
+            var marker_926aa63f60b42e2b5144a96f11fa184d = L.marker(
+                [-3.4344681, 114.833598],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_c3a255fede33baaa8f650feaf21ab2f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcaaceff2dcac7db4e746ba4daac7cc0 = $(`<div id="html_bcaaceff2dcac7db4e746ba4daac7cc0" style="width: 100.0%; height: 100.0%;">Hutan Pinus Mentaos</div>`)[0];
+                popup_c3a255fede33baaa8f650feaf21ab2f2.setContent(html_bcaaceff2dcac7db4e746ba4daac7cc0);
+            
+        
+
+        marker_926aa63f60b42e2b5144a96f11fa184d.bindPopup(popup_c3a255fede33baaa8f650feaf21ab2f2)
+        ;
+
+        
+    
+    
+            var marker_6fb152b5193440c1093ba415e0b2aee2 = L.marker(
+                [-3.5076127, 114.748248],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_13013b4fb3da5d3bee8ce5fa11fadece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4585ee2ae6e07c2e31e684ee740c2087 = $(`<div id="html_4585ee2ae6e07c2e31e684ee740c2087" style="width: 100.0%; height: 100.0%;">Danau Galuh Cempaka</div>`)[0];
+                popup_13013b4fb3da5d3bee8ce5fa11fadece.setContent(html_4585ee2ae6e07c2e31e684ee740c2087);
+            
+        
+
+        marker_6fb152b5193440c1093ba415e0b2aee2.bindPopup(popup_13013b4fb3da5d3bee8ce5fa11fadece)
+        ;
+
+        
+    
+    
+            var marker_e0a3196489e044bb392cb0d2c70e3cf3 = L.marker(
+                [-3.4520082, 114.809857],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_fb48a23770f36915eb3c3e382a0106dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_174e94e6d16112353068ccea309f901a = $(`<div id="html_174e94e6d16112353068ccea309f901a" style="width: 100.0%; height: 100.0%;">Embung Sidodadi</div>`)[0];
+                popup_fb48a23770f36915eb3c3e382a0106dc.setContent(html_174e94e6d16112353068ccea309f901a);
+            
+        
+
+        marker_e0a3196489e044bb392cb0d2c70e3cf3.bindPopup(popup_fb48a23770f36915eb3c3e382a0106dc)
+        ;
+
+        
+    
+    
+            var marker_9b76583b7387972280ee24ae0f34ca65 = L.marker(
+                [-3.4897951, 114.816578],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_d8ad9bdae04565e4b63ae92516e2282c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5d11c320f79814ecf656020be7362c3 = $(`<div id="html_a5d11c320f79814ecf656020be7362c3" style="width: 100.0%; height: 100.0%;">Banua Botanical Garden</div>`)[0];
+                popup_d8ad9bdae04565e4b63ae92516e2282c.setContent(html_a5d11c320f79814ecf656020be7362c3);
+            
+        
+
+        marker_9b76583b7387972280ee24ae0f34ca65.bindPopup(popup_d8ad9bdae04565e4b63ae92516e2282c)
+        ;
+
+        
+    
+    
+            var marker_f900b815e1b6935bc7f9ec79670f64c0 = L.marker(
+                [-3.4660684, 114.635307],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_a515a179205f67f67b7d7421f87c28a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5ddcb31ccd30a3a657541869e7258c4 = $(`<div id="html_d5ddcb31ccd30a3a657541869e7258c4" style="width: 100.0%; height: 100.0%;">Bukit Lentera</div>`)[0];
+                popup_a515a179205f67f67b7d7421f87c28a6.setContent(html_d5ddcb31ccd30a3a657541869e7258c4);
+            
+        
+
+        marker_f900b815e1b6935bc7f9ec79670f64c0.bindPopup(popup_a515a179205f67f67b7d7421f87c28a6)
+        ;
+
+        
+    
+    
+            var marker_221450d842b6b611cfbc516b3b389822 = L.marker(
+                [-3.5300401, 114.863355],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_75cd4f8c5407e7891b1a845c2195d22c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec45c808b94f9882544e3d84ff0ff6ea = $(`<div id="html_ec45c808b94f9882544e3d84ff0ff6ea" style="width: 100.0%; height: 100.0%;">Danau Biru Desa Tiung</div>`)[0];
+                popup_75cd4f8c5407e7891b1a845c2195d22c.setContent(html_ec45c808b94f9882544e3d84ff0ff6ea);
+            
+        
+
+        marker_221450d842b6b611cfbc516b3b389822.bindPopup(popup_75cd4f8c5407e7891b1a845c2195d22c)
+        ;
+
+        
+    
+    
+            var marker_9b1271ac72795c95a62a91f277a30e35 = L.marker(
+                [-3.4426492, 114.8384446],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_273128e349ab3f07d00d39177666612f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db972e044c9b3a77ec4697f11280fdd8 = $(`<div id="html_db972e044c9b3a77ec4697f11280fdd8" style="width: 100.0%; height: 100.0%;">Museum Lambung Mangkurat</div>`)[0];
+                popup_273128e349ab3f07d00d39177666612f.setContent(html_db972e044c9b3a77ec4697f11280fdd8);
+            
+        
+
+        marker_9b1271ac72795c95a62a91f277a30e35.bindPopup(popup_273128e349ab3f07d00d39177666612f)
+        ;
+
+        
+    
+    
+            var marker_8991bca75c6f685ad6f558ed25b89ee9 = L.marker(
+                [-3.4473002, 114.830888],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_ea0672aea7be1f4595ca5beb283bb442 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05d273349fecf1cd58538a0fdeabaa44 = $(`<div id="html_05d273349fecf1cd58538a0fdeabaa44" style="width: 100.0%; height: 100.0%;">Kampung Pelangi Banjarbaru</div>`)[0];
+                popup_ea0672aea7be1f4595ca5beb283bb442.setContent(html_05d273349fecf1cd58538a0fdeabaa44);
+            
+        
+
+        marker_8991bca75c6f685ad6f558ed25b89ee9.bindPopup(popup_ea0672aea7be1f4595ca5beb283bb442)
+        ;
+
+        
+    
+    
+            var marker_8a83f5b0918a3a20853b8062147760af = L.marker(
+                [-3.5320031, 114.914628],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_d74f495e2dde49363cfda392fd697639 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e03224a3801d769d9c8a8d3f77e66184 = $(`<div id="html_e03224a3801d769d9c8a8d3f77e66184" style="width: 100.0%; height: 100.0%;">Alaska Park Banjarbaru</div>`)[0];
+                popup_d74f495e2dde49363cfda392fd697639.setContent(html_e03224a3801d769d9c8a8d3f77e66184);
+            
+        
+
+        marker_8a83f5b0918a3a20853b8062147760af.bindPopup(popup_d74f495e2dde49363cfda392fd697639)
+        ;
+
+        
+    
+    
+            var marker_2712cd76d4d33f9439ee2b31e542cd2d = L.marker(
+                [-3.4837392, 114.8194245],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_4c0fdcef62ea1a3eed59aa0676c30bcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95087069981f265d1aee7695d65b3a9d = $(`<div id="html_95087069981f265d1aee7695d65b3a9d" style="width: 100.0%; height: 100.0%;">Taman Labirin Banua (Kebun Raya Banua)</div>`)[0];
+                popup_4c0fdcef62ea1a3eed59aa0676c30bcb.setContent(html_95087069981f265d1aee7695d65b3a9d);
+            
+        
+
+        marker_2712cd76d4d33f9439ee2b31e542cd2d.bindPopup(popup_4c0fdcef62ea1a3eed59aa0676c30bcb)
+        ;
+
+        
+    
+    
+            var marker_4b0d6ad8c67da0280d4577abbe13f2f8 = L.marker(
+                [-3.3463109, 114.776734],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_e36d21c0d9bc0954b9f6c80652130e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e55f9984868b4cc717f1304093d04cf9 = $(`<div id="html_e55f9984868b4cc717f1304093d04cf9" style="width: 100.0%; height: 100.0%;">Aquatica Waterpark & ​​Playground</div>`)[0];
+                popup_e36d21c0d9bc0954b9f6c80652130e80.setContent(html_e55f9984868b4cc717f1304093d04cf9);
+            
+        
+
+        marker_4b0d6ad8c67da0280d4577abbe13f2f8.bindPopup(popup_e36d21c0d9bc0954b9f6c80652130e80)
+        ;
+
+        
+    
+    
+            var marker_1830943bdf8784d81fef252b22966235 = L.marker(
+                [-3.4676454, 114.922383],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_40267c295e6ff44452eb5eb69c579f5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be64c0bfbb25a1afbf42ea32d02775a3 = $(`<div id="html_be64c0bfbb25a1afbf42ea32d02775a3" style="width: 100.0%; height: 100.0%;">Meek Farm</div>`)[0];
+                popup_40267c295e6ff44452eb5eb69c579f5a.setContent(html_be64c0bfbb25a1afbf42ea32d02775a3);
+            
+        
+
+        marker_1830943bdf8784d81fef252b22966235.bindPopup(popup_40267c295e6ff44452eb5eb69c579f5a)
+        ;
+
+        
+    
+    
+            var marker_442ef1414b6c815fd5aeceab5ec5e75b = L.marker(
+                [-3.4424032, 114.8308829],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_4816bbd1de4c4f579d713065ad339251 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff9668f6fe9a72de913c6e3ee8a2aec1 = $(`<div id="html_ff9668f6fe9a72de913c6e3ee8a2aec1" style="width: 100.0%; height: 100.0%;">Taman Air Mancur Minggu Raya</div>`)[0];
+                popup_4816bbd1de4c4f579d713065ad339251.setContent(html_ff9668f6fe9a72de913c6e3ee8a2aec1);
+            
+        
+
+        marker_442ef1414b6c815fd5aeceab5ec5e75b.bindPopup(popup_4816bbd1de4c4f579d713065ad339251)
+        ;
+
+        
+    
+    
+            var marker_379b2b7b44e55b336bed4781c3dd87fe = L.marker(
+                [-3.5049635, 114.844544],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_c3b10f0e5248749d0d50b009d1b6047d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d64486c1fb96462eb4eb1c169d9153e = $(`<div id="html_0d64486c1fb96462eb4eb1c169d9153e" style="width: 100.0%; height: 100.0%;">Wisata Kuliner Kampung Purun</div>`)[0];
+                popup_c3b10f0e5248749d0d50b009d1b6047d.setContent(html_0d64486c1fb96462eb4eb1c169d9153e);
+            
+        
+
+        marker_379b2b7b44e55b336bed4781c3dd87fe.bindPopup(popup_c3b10f0e5248749d0d50b009d1b6047d)
+        ;
+
+        
+    
+    
+            var marker_0e4e3e9ae3efc87980ede3af199d09db = L.marker(
+                [-3.5183027, 114.9502028],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_81551cdc96751f5c8633637fd440f728 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f25d5e7c4636131dd57d8566f481369a = $(`<div id="html_f25d5e7c4636131dd57d8566f481369a" style="width: 100.0%; height: 100.0%;">Taman Hutan Raya Sultan Adam</div>`)[0];
+                popup_81551cdc96751f5c8633637fd440f728.setContent(html_f25d5e7c4636131dd57d8566f481369a);
+            
+        
+
+        marker_0e4e3e9ae3efc87980ede3af199d09db.bindPopup(popup_81551cdc96751f5c8633637fd440f728)
+        ;
+
+        
+    
+    
+            var marker_e80609c953b2fef35670411fb08722dc = L.marker(
+                [-3.5254244, 115.094272],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_cfac1d798331f0def3f7cf993f067708 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b59fc45a8d06f0cb98a808c96873b22 = $(`<div id="html_5b59fc45a8d06f0cb98a808c96873b22" style="width: 100.0%; height: 100.0%;">Bukit Matang Kaladan</div>`)[0];
+                popup_cfac1d798331f0def3f7cf993f067708.setContent(html_5b59fc45a8d06f0cb98a808c96873b22);
+            
+        
+
+        marker_e80609c953b2fef35670411fb08722dc.bindPopup(popup_cfac1d798331f0def3f7cf993f067708)
+        ;
+
+        
+    
+    
+            var marker_50478bb821c5fca079be860495b19095 = L.marker(
+                [-3.442501, 114.8312193],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_c515b29120440097b411d1864f07ddda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81090dcddf556b33ecf82485b5ac65de = $(`<div id="html_81090dcddf556b33ecf82485b5ac65de" style="width: 100.0%; height: 100.0%;">Taman Van Der Pijl</div>`)[0];
+                popup_c515b29120440097b411d1864f07ddda.setContent(html_81090dcddf556b33ecf82485b5ac65de);
+            
+        
+
+        marker_50478bb821c5fca079be860495b19095.bindPopup(popup_c515b29120440097b411d1864f07ddda)
+        ;
+
+        
+    
+    
+            var marker_ca28bd6b4a5930e179875745942d4deb = L.marker(
+                [-3.4432703, 114.8197648],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_92dca5015162531725b1ee33ffff31a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40b5a1a1eacd7e910889138273d7a7f = $(`<div id="html_a40b5a1a1eacd7e910889138273d7a7f" style="width: 100.0%; height: 100.0%;">MENARA 33</div>`)[0];
+                popup_92dca5015162531725b1ee33ffff31a2.setContent(html_a40b5a1a1eacd7e910889138273d7a7f);
+            
+        
+
+        marker_ca28bd6b4a5930e179875745942d4deb.bindPopup(popup_92dca5015162531725b1ee33ffff31a2)
+        ;
+
+        
+    
+    
+            var marker_e3e0add3530abdcd63fd548e84cfcb49 = L.marker(
+                [-3.4143017, 114.636587],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_1b0725697b14f34342a80e7fe6322da2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b838280c59493870ca1b560035ae5a5 = $(`<div id="html_6b838280c59493870ca1b560035ae5a5" style="width: 100.0%; height: 100.0%;">Wisata Petik Melon Banjarbaru</div>`)[0];
+                popup_1b0725697b14f34342a80e7fe6322da2.setContent(html_6b838280c59493870ca1b560035ae5a5);
+            
+        
+
+        marker_e3e0add3530abdcd63fd548e84cfcb49.bindPopup(popup_1b0725697b14f34342a80e7fe6322da2)
+        ;
+
+        
+    
+    
+            var marker_7f3be21b92337d37fda1c526b34c271d = L.marker(
+                [-3.4732554, 114.8273167],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_be25db8ff8e923320a34b76de18f068b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25b509948d3b67090de8a5272b8c702d = $(`<div id="html_25b509948d3b67090de8a5272b8c702d" style="width: 100.0%; height: 100.0%;">Waduk Banjarbaru</div>`)[0];
+                popup_be25db8ff8e923320a34b76de18f068b.setContent(html_25b509948d3b67090de8a5272b8c702d);
+            
+        
+
+        marker_7f3be21b92337d37fda1c526b34c271d.bindPopup(popup_be25db8ff8e923320a34b76de18f068b)
+        ;
+
+        
+    
+    
+            var marker_65716ec0d0546d1487eabf32be9d4915 = L.marker(
+                [-3.5364435, 115.541896],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_244b9fc54e31865c51d971174046ca6a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c9093b01bc4983403f93dbb31e542a = $(`<div id="html_06c9093b01bc4983403f93dbb31e542a" style="width: 100.0%; height: 100.0%;">PINE ISLAND ARANIO</div>`)[0];
+                popup_244b9fc54e31865c51d971174046ca6a.setContent(html_06c9093b01bc4983403f93dbb31e542a);
+            
+        
+
+        marker_65716ec0d0546d1487eabf32be9d4915.bindPopup(popup_244b9fc54e31865c51d971174046ca6a)
+        ;
+
+        
+    
+    
+            var marker_c2fdd37bd95868304ee37a9ea389eddb = L.marker(
+                [-3.5266249, 114.8400764],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_fda9dd00479e5d5f32ee2f3b28d8da63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c83bb55eb0c081496d78abb38d61084 = $(`<div id="html_5c83bb55eb0c081496d78abb38d61084" style="width: 100.0%; height: 100.0%;">Bukit Munggualung</div>`)[0];
+                popup_fda9dd00479e5d5f32ee2f3b28d8da63.setContent(html_5c83bb55eb0c081496d78abb38d61084);
+            
+        
+
+        marker_c2fdd37bd95868304ee37a9ea389eddb.bindPopup(popup_fda9dd00479e5d5f32ee2f3b28d8da63)
+        ;
+
+        
+    
+    
+            var marker_31958a0a0c43f6d674b5d68cf4d4d622 = L.marker(
+                [-3.515572, 114.9428685],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_a1c39b2a8d0928885b2cff7c823d5e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5839361cba18e31aab8faf5f8acd43b1 = $(`<div id="html_5839361cba18e31aab8faf5f8acd43b1" style="width: 100.0%; height: 100.0%;">Mandin Putri Waterfall</div>`)[0];
+                popup_a1c39b2a8d0928885b2cff7c823d5e3a.setContent(html_5839361cba18e31aab8faf5f8acd43b1);
+            
+        
+
+        marker_31958a0a0c43f6d674b5d68cf4d4d622.bindPopup(popup_a1c39b2a8d0928885b2cff7c823d5e3a)
+        ;
+
+        
+    
+    
+            var marker_478305a8adc3bcc509875f5d1908f281 = L.marker(
+                [-3.4332716, 114.894639],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_3df2fa71ea65114e703e8d06456242cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb654f5b35efe58c46759cd93a5ea548 = $(`<div id="html_cb654f5b35efe58c46759cd93a5ea548" style="width: 100.0%; height: 100.0%;">Jack kolam</div>`)[0];
+                popup_3df2fa71ea65114e703e8d06456242cb.setContent(html_cb654f5b35efe58c46759cd93a5ea548);
+            
+        
+
+        marker_478305a8adc3bcc509875f5d1908f281.bindPopup(popup_3df2fa71ea65114e703e8d06456242cb)
+        ;
+
+        
+    
+    
+            var marker_63bf0669c252dd8ab355fbe3d00dcb58 = L.marker(
+                [-3.4890639, 114.913052],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_73f636afeaf22ceae23d6eb6ef10b6f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfa03078e13290977894b7b4f859c9e4 = $(`<div id="html_bfa03078e13290977894b7b4f859c9e4" style="width: 100.0%; height: 100.0%;">Danau Seran</div>`)[0];
+                popup_73f636afeaf22ceae23d6eb6ef10b6f3.setContent(html_bfa03078e13290977894b7b4f859c9e4);
+            
+        
+
+        marker_63bf0669c252dd8ab355fbe3d00dcb58.bindPopup(popup_73f636afeaf22ceae23d6eb6ef10b6f3)
+        ;
+
+        
+    
+    
+            var marker_da49279ef630d1b48186f1fd4a1ca124 = L.marker(
+                [-3.3529158, 114.922585],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_7302e733f5cb52fa7637b7929d4f27de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_149205b553dc6fc9577db59a559f052f = $(`<div id="html_149205b553dc6fc9577db59a559f052f" style="width: 100.0%; height: 100.0%;">Air Terjun Janda Beranak Tiga Desa Kiram</div>`)[0];
+                popup_7302e733f5cb52fa7637b7929d4f27de.setContent(html_149205b553dc6fc9577db59a559f052f);
+            
+        
+
+        marker_da49279ef630d1b48186f1fd4a1ca124.bindPopup(popup_7302e733f5cb52fa7637b7929d4f27de)
+        ;
+
+        
+    
+    
+            var marker_f12629cdb45dcf9bc656d758eb753b15 = L.marker(
+                [-3.4689803, 114.8126687],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_3375bf8ad093f5fc3fef0c0f5045969e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a8222b94a6849e454ec86c9a6264a2 = $(`<div id="html_36a8222b94a6849e454ec86c9a6264a2" style="width: 100.0%; height: 100.0%;">Palm Mini Waterpark</div>`)[0];
+                popup_3375bf8ad093f5fc3fef0c0f5045969e.setContent(html_36a8222b94a6849e454ec86c9a6264a2);
+            
+        
+
+        marker_f12629cdb45dcf9bc656d758eb753b15.bindPopup(popup_3375bf8ad093f5fc3fef0c0f5045969e)
+        ;
+
+        
+    
+    
+            var marker_95bc220d48a4cfd13fc36ec25a727bab = L.marker(
+                [-3.4493141, 114.9174208],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_f94adb4ba956c80f289683a119ac1fd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5826023abbfed8f57e8f6950cb727a3 = $(`<div id="html_d5826023abbfed8f57e8f6950cb727a3" style="width: 100.0%; height: 100.0%;">Kebun Melati Jasmine Hill</div>`)[0];
+                popup_f94adb4ba956c80f289683a119ac1fd9.setContent(html_d5826023abbfed8f57e8f6950cb727a3);
+            
+        
+
+        marker_95bc220d48a4cfd13fc36ec25a727bab.bindPopup(popup_f94adb4ba956c80f289683a119ac1fd9)
+        ;
+
+        
+    
+    
+            var marker_fb39f29151a337115c70a0ade52b064c = L.marker(
+                [-3.4332238, 114.8401516],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_9c6ef67aaa8f04173a72badb4f378a2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f253edbf0a4a03a99c2dcf3fd331fa4 = $(`<div id="html_5f253edbf0a4a03a99c2dcf3fd331fa4" style="width: 100.0%; height: 100.0%;">Pine Forest II</div>`)[0];
+                popup_9c6ef67aaa8f04173a72badb4f378a2d.setContent(html_5f253edbf0a4a03a99c2dcf3fd331fa4);
+            
+        
+
+        marker_fb39f29151a337115c70a0ade52b064c.bindPopup(popup_9c6ef67aaa8f04173a72badb4f378a2d)
+        ;
+
+        
+    
+    
+            var marker_be54a4ed2e516917faaac8c54c26b826 = L.marker(
+                [-3.4981165, 114.8128216],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_d82c4c580953697885f33bf1cd72b279 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_451c0d7aa1ad025eb79c5ad971b490a8 = $(`<div id="html_451c0d7aa1ad025eb79c5ad971b490a8" style="width: 100.0%; height: 100.0%;">Origami Park</div>`)[0];
+                popup_d82c4c580953697885f33bf1cd72b279.setContent(html_451c0d7aa1ad025eb79c5ad971b490a8);
+            
+        
+
+        marker_be54a4ed2e516917faaac8c54c26b826.bindPopup(popup_d82c4c580953697885f33bf1cd72b279)
+        ;
+
+        
+    
+    
+            var marker_b202b245728e19e3e75ef913f9175355 = L.marker(
+                [-3.3542864, 114.914615],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_a18e65cbc0d6231fca332f0503331627 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d9c3206262fd2b6279417e9f5735078 = $(`<div id="html_1d9c3206262fd2b6279417e9f5735078" style="width: 100.0%; height: 100.0%;">Sungai Kiram Berbatu</div>`)[0];
+                popup_a18e65cbc0d6231fca332f0503331627.setContent(html_1d9c3206262fd2b6279417e9f5735078);
+            
+        
+
+        marker_b202b245728e19e3e75ef913f9175355.bindPopup(popup_a18e65cbc0d6231fca332f0503331627)
+        ;
+
+        
+    
+    
+            var marker_fe5206e03d1466bf28304b36be9fa7c2 = L.marker(
+                [-3.4494773, 114.8088456],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_3ac7ee68c4ddf4569968fc25c5bdd2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea8147b18e59f1883259265ce2c6c6b = $(`<div id="html_3ea8147b18e59f1883259265ce2c6c6b" style="width: 100.0%; height: 100.0%;">Kebun Kopi Edukasi</div>`)[0];
+                popup_3ac7ee68c4ddf4569968fc25c5bdd2e8.setContent(html_3ea8147b18e59f1883259265ce2c6c6b);
+            
+        
+
+        marker_fe5206e03d1466bf28304b36be9fa7c2.bindPopup(popup_3ac7ee68c4ddf4569968fc25c5bdd2e8)
+        ;
+
+        
+    
+    
+            var marker_ce56a89f600091263c278fc036c1ce24 = L.marker(
+                [-3.5481369, 115.411178],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_0c8ec1ca4bfbac77179bda815feea579 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28f356819975be24ab1a15cad39b86c7 = $(`<div id="html_28f356819975be24ab1a15cad39b86c7" style="width: 100.0%; height: 100.0%;">Bukit Batas</div>`)[0];
+                popup_0c8ec1ca4bfbac77179bda815feea579.setContent(html_28f356819975be24ab1a15cad39b86c7);
+            
+        
+
+        marker_ce56a89f600091263c278fc036c1ce24.bindPopup(popup_0c8ec1ca4bfbac77179bda815feea579)
+        ;
+
+        
+    
+    
+            var marker_cf3e1ed7a98a013ea05a2b0391c43d22 = L.marker(
+                [-3.4867631, 114.817323],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_92f01185e410ca54a7db044199cfb666 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dacbf3bc02367e79448cb3704ff613c7 = $(`<div id="html_dacbf3bc02367e79448cb3704ff613c7" style="width: 100.0%; height: 100.0%;">Embung Kebun Raya Banua</div>`)[0];
+                popup_92f01185e410ca54a7db044199cfb666.setContent(html_dacbf3bc02367e79448cb3704ff613c7);
+            
+        
+
+        marker_cf3e1ed7a98a013ea05a2b0391c43d22.bindPopup(popup_92f01185e410ca54a7db044199cfb666)
+        ;
+
+        
+    
+    
+            var marker_e6b7fa434a28ed2ddf55131446d6137a = L.marker(
+                [-3.4455012, 114.8318733],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_a34ffab65c2c2c8b11d34d8e6161ee26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3382c5f0e846b249f5c3b8f712294680 = $(`<div id="html_3382c5f0e846b249f5c3b8f712294680" style="width: 100.0%; height: 100.0%;">Taman Gembira Banjarbaru</div>`)[0];
+                popup_a34ffab65c2c2c8b11d34d8e6161ee26.setContent(html_3382c5f0e846b249f5c3b8f712294680);
+            
+        
+
+        marker_e6b7fa434a28ed2ddf55131446d6137a.bindPopup(popup_a34ffab65c2c2c8b11d34d8e6161ee26)
+        ;
+
+        
+    
+    
+            var marker_42cba17c5a0d333b221da5b01788316e = L.marker(
+                [-3.4345146, 114.983514],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_2c6165958d59541efda6c129eee24067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aebde4c85d88c06d8aaf07d189819d10 = $(`<div id="html_aebde4c85d88c06d8aaf07d189819d10" style="width: 100.0%; height: 100.0%;">Experiment Garden Banjarbaru</div>`)[0];
+                popup_2c6165958d59541efda6c129eee24067.setContent(html_aebde4c85d88c06d8aaf07d189819d10);
+            
+        
+
+        marker_42cba17c5a0d333b221da5b01788316e.bindPopup(popup_2c6165958d59541efda6c129eee24067)
+        ;
+
+        
+    
+    
+            var marker_2633dccba29141f1955cbf77c657c8ca = L.marker(
+                [-3.5196033, 114.9360828],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_5e198b3534f5e02fbfb2e0105d7866d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c444cbe00bdb0df69870a3dd9042f8e8 = $(`<div id="html_c444cbe00bdb0df69870a3dd9042f8e8" style="width: 100.0%; height: 100.0%;">Air Terjun Mandin Putri Kembar</div>`)[0];
+                popup_5e198b3534f5e02fbfb2e0105d7866d5.setContent(html_c444cbe00bdb0df69870a3dd9042f8e8);
+            
+        
+
+        marker_2633dccba29141f1955cbf77c657c8ca.bindPopup(popup_5e198b3534f5e02fbfb2e0105d7866d5)
+        ;
+
+        
+    
+    
+            var marker_8e10650391307e3fba00cd834d1c2359 = L.marker(
+                [-3.4611803, 114.8110413],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_f774036c35c3ae1d3746e3abf94fcf4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11071ba2686fa5ec9b47c2e0a06e8c98 = $(`<div id="html_11071ba2686fa5ec9b47c2e0a06e8c98" style="width: 100.0%; height: 100.0%;">Tugu Dulangan Banjarbaru</div>`)[0];
+                popup_f774036c35c3ae1d3746e3abf94fcf4f.setContent(html_11071ba2686fa5ec9b47c2e0a06e8c98);
+            
+        
+
+        marker_8e10650391307e3fba00cd834d1c2359.bindPopup(popup_f774036c35c3ae1d3746e3abf94fcf4f)
+        ;
+
+        
+    
+    
+            var marker_c1177b7a8ab51c62edf55195d6f57ccb = L.marker(
+                [-3.3492753, 114.762894],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_f1a6d727b49c4150228ea057c28228f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22946f29eaf197bc48146e936164bb3d = $(`<div id="html_22946f29eaf197bc48146e936164bb3d" style="width: 100.0%; height: 100.0%;">Danau Caramin</div>`)[0];
+                popup_f1a6d727b49c4150228ea057c28228f4.setContent(html_22946f29eaf197bc48146e936164bb3d);
+            
+        
+
+        marker_c1177b7a8ab51c62edf55195d6f57ccb.bindPopup(popup_f1a6d727b49c4150228ea057c28228f4)
+        ;
+
+        
+    
+    
+            var marker_02f6d5f34b61d3c04df58f5a527ee621 = L.marker(
+                [-3.4605626, 114.8254875],
+                {}
+            ).addTo(map_03d399bafafde2892a884771902a5c35);
+        
+    
+        var popup_01af857b76793b3d731944d3af5eaac0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe8677deb9274d59b2d326beb66594f2 = $(`<div id="html_fe8677deb9274d59b2d326beb66594f2" style="width: 100.0%; height: 100.0%;">Taman Sakura Al-Munawarah Banjarbaru</div>`)[0];
+                popup_01af857b76793b3d731944d3af5eaac0.setContent(html_fe8677deb9274d59b2d326beb66594f2);
+            
+        
+
+        marker_02f6d5f34b61d3c04df58f5a527ee621.bindPopup(popup_01af857b76793b3d731944d3af5eaac0)
+        ;
+
+        
+    
+</script>
+</html>

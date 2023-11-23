@@ -1,0 +1,2715 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf1951e7984b23c46660327d855641d8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf1951e7984b23c46660327d855641d8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf1951e7984b23c46660327d855641d8 = L.map(
+                "map_cf1951e7984b23c46660327d855641d8",
+                {
+                    center: [-7.797068, 110.370529],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_65be626c05c5a8009ab68d0dcaa86602 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+            var marker_7e13aade32258faa595c30bbe6fa1c87 = L.marker(
+                [-7.8006715, 110.3676551],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_28ab048a96402c887ff53157a169e78e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3249fb45ae94af3f79d9b559a22d993 = $(`<div id="html_a3249fb45ae94af3f79d9b559a22d993" style="width: 100.0%; height: 100.0%;">Taman Pintar Yogyakarta</div>`)[0];
+                popup_28ab048a96402c887ff53157a169e78e.setContent(html_a3249fb45ae94af3f79d9b559a22d993);
+            
+        
+
+        marker_7e13aade32258faa595c30bbe6fa1c87.bindPopup(popup_28ab048a96402c887ff53157a169e78e)
+        ;
+
+        
+    
+    
+            var marker_4c6582b1d034d705d74dc4e7dd875c5e = L.marker(
+                [-7.8052845, 110.3642031],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_0b868d2bc2e59343aa4099bf74fd4704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c627ab2088a61c7b9d002154dae8ae57 = $(`<div id="html_c627ab2088a61c7b9d002154dae8ae57" style="width: 100.0%; height: 100.0%;">Keraton Yogyakarta</div>`)[0];
+                popup_0b868d2bc2e59343aa4099bf74fd4704.setContent(html_c627ab2088a61c7b9d002154dae8ae57);
+            
+        
+
+        marker_4c6582b1d034d705d74dc4e7dd875c5e.bindPopup(popup_0b868d2bc2e59343aa4099bf74fd4704)
+        ;
+
+        
+    
+    
+            var marker_2818cf924124de306b45361fadc4a765 = L.marker(
+                [-7.7672973, 110.3542486],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_781fdbecc0cd886bd97bb5dbc630c925 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9495d17684f7ba57b95a5680cd4f7a09 = $(`<div id="html_9495d17684f7ba57b95a5680cd4f7a09" style="width: 100.0%; height: 100.0%;">Sindu Kusuma Edupark (SKE)</div>`)[0];
+                popup_781fdbecc0cd886bd97bb5dbc630c925.setContent(html_9495d17684f7ba57b95a5680cd4f7a09);
+            
+        
+
+        marker_2818cf924124de306b45361fadc4a765.bindPopup(popup_781fdbecc0cd886bd97bb5dbc630c925)
+        ;
+
+        
+    
+    
+            var marker_653957cced71a009c9870f3ad13222e4 = L.marker(
+                [-7.8002016, 110.3663044],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_356a14469e95c076e0c5b620236621ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e66907049b52cd0e3002013c86f78870 = $(`<div id="html_e66907049b52cd0e3002013c86f78870" style="width: 100.0%; height: 100.0%;">Museum Benteng Vredeburg Yogyakarta</div>`)[0];
+                popup_356a14469e95c076e0c5b620236621ca.setContent(html_e66907049b52cd0e3002013c86f78870);
+            
+        
+
+        marker_653957cced71a009c9870f3ad13222e4.bindPopup(popup_356a14469e95c076e0c5b620236621ca)
+        ;
+
+        
+    
+    
+            var marker_0893686c0d0f87d82612ba0e300bc753 = L.marker(
+                [-7.8163156, 110.3871442],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_402604c7c4b9a759ffa81f2678870e84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_243dfad516629000a5a82dc42b7d4107 = $(`<div id="html_243dfad516629000a5a82dc42b7d4107" style="width: 100.0%; height: 100.0%;">De Mata Museum Jogja</div>`)[0];
+                popup_402604c7c4b9a759ffa81f2678870e84.setContent(html_243dfad516629000a5a82dc42b7d4107);
+            
+        
+
+        marker_0893686c0d0f87d82612ba0e300bc753.bindPopup(popup_402604c7c4b9a759ffa81f2678870e84)
+        ;
+
+        
+    
+    
+            var marker_4887c74d741d0e33ff6e1aa8de538394 = L.marker(
+                [-7.8100673, 110.3594581],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_92e1dbbaa937f36206bc46cb80e9729d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f84a11c70196de43e4da5d4bd6b6f479 = $(`<div id="html_f84a11c70196de43e4da5d4bd6b6f479" style="width: 100.0%; height: 100.0%;">Kampung Wisata Taman Sari</div>`)[0];
+                popup_92e1dbbaa937f36206bc46cb80e9729d.setContent(html_f84a11c70196de43e4da5d4bd6b6f479);
+            
+        
+
+        marker_4887c74d741d0e33ff6e1aa8de538394.bindPopup(popup_92e1dbbaa937f36206bc46cb80e9729d)
+        ;
+
+        
+    
+    
+            var marker_480eb5a210b8713506a059bd71fc3b18 = L.marker(
+                [-7.8102685, 110.3931513],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_3d212bbe129a9a524275e5052a40883d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02a83fda5affe487c5bfa316728711b0 = $(`<div id="html_02a83fda5affe487c5bfa316728711b0" style="width: 100.0%; height: 100.0%;">Situs Warungboto</div>`)[0];
+                popup_3d212bbe129a9a524275e5052a40883d.setContent(html_02a83fda5affe487c5bfa316728711b0);
+            
+        
+
+        marker_480eb5a210b8713506a059bd71fc3b18.bindPopup(popup_3d212bbe129a9a524275e5052a40883d)
+        ;
+
+        
+    
+    
+            var marker_532917725015bdd94b540d3ce97f0008 = L.marker(
+                [-7.8013803, 110.3647652],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_a1b7206865395400a3c012bd5cc245a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15ce94c55facee86cc65528aa6b5678c = $(`<div id="html_15ce94c55facee86cc65528aa6b5678c" style="width: 100.0%; height: 100.0%;">Nol Kilometer Jl.Malioboro</div>`)[0];
+                popup_a1b7206865395400a3c012bd5cc245a5.setContent(html_15ce94c55facee86cc65528aa6b5678c);
+            
+        
+
+        marker_532917725015bdd94b540d3ce97f0008.bindPopup(popup_a1b7206865395400a3c012bd5cc245a5)
+        ;
+
+        
+    
+    
+            var marker_7af14e2ad2ab11f0a7783f6af98a72d7 = L.marker(
+                [-7.8062344, 110.3967977],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_426cedfe3881fd61b3dc59fd128cff70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be112732ca278630a14bfe337a12529d = $(`<div id="html_be112732ca278630a14bfe337a12529d" style="width: 100.0%; height: 100.0%;">Gembira Loka Zoo</div>`)[0];
+                popup_426cedfe3881fd61b3dc59fd128cff70.setContent(html_be112732ca278630a14bfe337a12529d);
+            
+        
+
+        marker_7af14e2ad2ab11f0a7783f6af98a72d7.bindPopup(popup_426cedfe3881fd61b3dc59fd128cff70)
+        ;
+
+        
+    
+    
+            var marker_0a16860eb555c2fa5168fad7f4ba2232 = L.marker(
+                [-7.8087911, 110.3591825],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9ce75e161485769269c1230161130723 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec3b82b77eb58ee3175372eaf7ef9e44 = $(`<div id="html_ec3b82b77eb58ee3175372eaf7ef9e44" style="width: 100.0%; height: 100.0%;">Sumur Gumuling</div>`)[0];
+                popup_9ce75e161485769269c1230161130723.setContent(html_ec3b82b77eb58ee3175372eaf7ef9e44);
+            
+        
+
+        marker_0a16860eb555c2fa5168fad7f4ba2232.bindPopup(popup_9ce75e161485769269c1230161130723)
+        ;
+
+        
+    
+    
+            var marker_af5961372d54a3492e6b86c679ff0b58 = L.marker(
+                [-7.8229089, 110.3756894],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_08d5760166b392744da5e4aff759d63e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23ab298bde95c79c20e9243dfa890036 = $(`<div id="html_23ab298bde95c79c20e9243dfa890036" style="width: 100.0%; height: 100.0%;">Desa Wisata Sungai Code Jogja Kota</div>`)[0];
+                popup_08d5760166b392744da5e4aff759d63e.setContent(html_23ab298bde95c79c20e9243dfa890036);
+            
+        
+
+        marker_af5961372d54a3492e6b86c679ff0b58.bindPopup(popup_08d5760166b392744da5e4aff759d63e)
+        ;
+
+        
+    
+    
+            var marker_0d7728c77e247fb46d77aac9e4527a23 = L.marker(
+                [-7.8116719, 110.363238],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cfbadd3af1a98de5bf1a9e11bebba96f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9b51eaedce64eb08f41eae13e81fd3 = $(`<div id="html_4c9b51eaedce64eb08f41eae13e81fd3" style="width: 100.0%; height: 100.0%;">Alun Alun Selatan Yogyakarta</div>`)[0];
+                popup_cfbadd3af1a98de5bf1a9e11bebba96f.setContent(html_4c9b51eaedce64eb08f41eae13e81fd3);
+            
+        
+
+        marker_0d7728c77e247fb46d77aac9e4527a23.bindPopup(popup_cfbadd3af1a98de5bf1a9e11bebba96f)
+        ;
+
+        
+    
+    
+            var marker_307f06360c70273264368df7c1aa13eb = L.marker(
+                [-7.7495904, 110.3696068],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_c66ec818335fe11884e79618ed970498 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6885c70a2a6a8b2f416152deebf4b57d = $(`<div id="html_6885c70a2a6a8b2f416152deebf4b57d" style="width: 100.0%; height: 100.0%;">Monumen Yogya Kembali</div>`)[0];
+                popup_c66ec818335fe11884e79618ed970498.setContent(html_6885c70a2a6a8b2f416152deebf4b57d);
+            
+        
+
+        marker_307f06360c70273264368df7c1aa13eb.bindPopup(popup_c66ec818335fe11884e79618ed970498)
+        ;
+
+        
+    
+    
+            var marker_84a2ec1f189e932eb8ec5a0fae89f774 = L.marker(
+                [-7.7505259, 110.3687049],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_ae2c491d830cdd537374be0a173e1003 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2390f7072c7093eb7878293a734d534e = $(`<div id="html_2390f7072c7093eb7878293a734d534e" style="width: 100.0%; height: 100.0%;">Taman Pelangi Yogyakarta</div>`)[0];
+                popup_ae2c491d830cdd537374be0a173e1003.setContent(html_2390f7072c7093eb7878293a734d534e);
+            
+        
+
+        marker_84a2ec1f189e932eb8ec5a0fae89f774.bindPopup(popup_ae2c491d830cdd537374be0a173e1003)
+        ;
+
+        
+    
+    
+            var marker_bc06b6f81f3b6c60e4489021f50a1156 = L.marker(
+                [-7.806093, 110.35831],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_8235b7191adae57e0f75250b3018cb8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f5e2cdc8dff2b21a73ffc1262fe8e3a = $(`<div id="html_2f5e2cdc8dff2b21a73ffc1262fe8e3a" style="width: 100.0%; height: 100.0%;">Kampung Wisata Kadipaten</div>`)[0];
+                popup_8235b7191adae57e0f75250b3018cb8c.setContent(html_2f5e2cdc8dff2b21a73ffc1262fe8e3a);
+            
+        
+
+        marker_bc06b6f81f3b6c60e4489021f50a1156.bindPopup(popup_8235b7191adae57e0f75250b3018cb8c)
+        ;
+
+        
+    
+    
+            var marker_cbe2df0117259fbfd3c2cdbca39d42c9 = L.marker(
+                [-7.8001041, 110.3676579],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b5258e91b7f3012d0712a40de39353e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71abf9b0529596f1d37d20cd2f4ce2fd = $(`<div id="html_71abf9b0529596f1d37d20cd2f4ce2fd" style="width: 100.0%; height: 100.0%;">Taman Budaya Yogyakarta</div>`)[0];
+                popup_b5258e91b7f3012d0712a40de39353e1.setContent(html_71abf9b0529596f1d37d20cd2f4ce2fd);
+            
+        
+
+        marker_cbe2df0117259fbfd3c2cdbca39d42c9.bindPopup(popup_b5258e91b7f3012d0712a40de39353e1)
+        ;
+
+        
+    
+    
+            var marker_640483c701784ad57a073cabea4a7df1 = L.marker(
+                [-7.79219, 110.362151],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_767f53bca9c8284744da9dae1395bebe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11f4353103353d34ec1f5f95fa61bb56 = $(`<div id="html_11f4353103353d34ec1f5f95fa61bb56" style="width: 100.0%; height: 100.0%;">Kampung Wisata Sosro Menduran</div>`)[0];
+                popup_767f53bca9c8284744da9dae1395bebe.setContent(html_11f4353103353d34ec1f5f95fa61bb56);
+            
+        
+
+        marker_640483c701784ad57a073cabea4a7df1.bindPopup(popup_767f53bca9c8284744da9dae1395bebe)
+        ;
+
+        
+    
+    
+            var marker_94444b1f02fb16a1659a66f363a8b547 = L.marker(
+                [-7.8011159, 110.3646172],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_55b3f99c1a65b7faee953d59df545185 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af580ba1952c416d6b8c860edcd154c0 = $(`<div id="html_af580ba1952c416d6b8c860edcd154c0" style="width: 100.0%; height: 100.0%;">Monumen Batik Yogyakarta</div>`)[0];
+                popup_55b3f99c1a65b7faee953d59df545185.setContent(html_af580ba1952c416d6b8c860edcd154c0);
+            
+        
+
+        marker_94444b1f02fb16a1659a66f363a8b547.bindPopup(popup_55b3f99c1a65b7faee953d59df545185)
+        ;
+
+        
+    
+    
+            var marker_aca0e3140cc71bb3c88542b51d231b92 = L.marker(
+                [-7.7829437, 110.3670548],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_5d895487af3b7412d977f8558efef4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab7e23dba9c142a88d2cbb35407ad449 = $(`<div id="html_ab7e23dba9c142a88d2cbb35407ad449" style="width: 100.0%; height: 100.0%;">Tugu Pal Putih Jogja</div>`)[0];
+                popup_5d895487af3b7412d977f8558efef4ab.setContent(html_ab7e23dba9c142a88d2cbb35407ad449);
+            
+        
+
+        marker_aca0e3140cc71bb3c88542b51d231b92.bindPopup(popup_5d895487af3b7412d977f8558efef4ab)
+        ;
+
+        
+    
+    
+            var marker_085c206f43ba804af8412ba2e55e14f7 = L.marker(
+                [-7.7815714, 110.5045827],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_e812eadd7218934e6ad5a9523df3707b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_208514a8b0b1afd4fc1364b397694a7b = $(`<div id="html_208514a8b0b1afd4fc1364b397694a7b" style="width: 100.0%; height: 100.0%;">Tebing Breksi</div>`)[0];
+                popup_e812eadd7218934e6ad5a9523df3707b.setContent(html_208514a8b0b1afd4fc1364b397694a7b);
+            
+        
+
+        marker_085c206f43ba804af8412ba2e55e14f7.bindPopup(popup_e812eadd7218934e6ad5a9523df3707b)
+        ;
+
+        
+    
+    
+            var marker_6b6b2d73a9865877614f88daa3a144ba = L.marker(
+                [-7.7955613, 110.3612095],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_6a5e581b2401ecd3ceee7b24226e4dae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b7c84411560923cd0827ca38878eab = $(`<div id="html_03b7c84411560923cd0827ca38878eab" style="width: 100.0%; height: 100.0%;">Candi Donotirto</div>`)[0];
+                popup_6a5e581b2401ecd3ceee7b24226e4dae.setContent(html_03b7c84411560923cd0827ca38878eab);
+            
+        
+
+        marker_6b6b2d73a9865877614f88daa3a144ba.bindPopup(popup_6a5e581b2401ecd3ceee7b24226e4dae)
+        ;
+
+        
+    
+    
+            var marker_165bd75f186317d06dab6dac2d493440 = L.marker(
+                [-7.793167, 110.3655238],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_7323a589d5a3786bdc0ecebea7836acb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7085a21ebd0c569dbc75176da08ed03 = $(`<div id="html_a7085a21ebd0c569dbc75176da08ed03" style="width: 100.0%; height: 100.0%;">Kawasan Malioboro</div>`)[0];
+                popup_7323a589d5a3786bdc0ecebea7836acb.setContent(html_a7085a21ebd0c569dbc75176da08ed03);
+            
+        
+
+        marker_165bd75f186317d06dab6dac2d493440.bindPopup(popup_7323a589d5a3786bdc0ecebea7836acb)
+        ;
+
+        
+    
+    
+            var marker_c47b43b3e36912ee3e7840fc7691f695 = L.marker(
+                [-7.8052843, 110.3642137],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_915dc21424a011463f3dd181ad90e21f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dafa48e1c3afbe66b045989eadb44b51 = $(`<div id="html_dafa48e1c3afbe66b045989eadb44b51" style="width: 100.0%; height: 100.0%;">Bangsal Pagelaran</div>`)[0];
+                popup_915dc21424a011463f3dd181ad90e21f.setContent(html_dafa48e1c3afbe66b045989eadb44b51);
+            
+        
+
+        marker_c47b43b3e36912ee3e7840fc7691f695.bindPopup(popup_915dc21424a011463f3dd181ad90e21f)
+        ;
+
+        
+    
+    
+            var marker_def5ed3c64e17b0046530d74d8985070 = L.marker(
+                [-7.756227, 110.4150131],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4e940ae478b84f182f6cc82d8a1bb942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bfa5240a5c356324ce8e72004037a8a = $(`<div id="html_0bfa5240a5c356324ce8e72004037a8a" style="width: 100.0%; height: 100.0%;">Embung Tambakboyo</div>`)[0];
+                popup_4e940ae478b84f182f6cc82d8a1bb942.setContent(html_0bfa5240a5c356324ce8e72004037a8a);
+            
+        
+
+        marker_def5ed3c64e17b0046530d74d8985070.bindPopup(popup_4e940ae478b84f182f6cc82d8a1bb942)
+        ;
+
+        
+    
+    
+            var marker_4fc37523e39bb72bcf85a982fca4cec4 = L.marker(
+                [-7.8704832, 110.4599108],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_45af7194eea72d697897030539f58e37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a58e126e78c9a44aa78dcada780e9be3 = $(`<div id="html_a58e126e78c9a44aa78dcada780e9be3" style="width: 100.0%; height: 100.0%;">Hutan Pinus Pengger</div>`)[0];
+                popup_45af7194eea72d697897030539f58e37.setContent(html_a58e126e78c9a44aa78dcada780e9be3);
+            
+        
+
+        marker_4fc37523e39bb72bcf85a982fca4cec4.bindPopup(popup_45af7194eea72d697897030539f58e37)
+        ;
+
+        
+    
+    
+            var marker_6536306cc0da2bacb285753b7d95b839 = L.marker(
+                [-7.8010124, 110.3653376],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_76ad1b361eef152f17759d36fb6174f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b76f20ae3bb606d874b07de9a43a8f85 = $(`<div id="html_b76f20ae3bb606d874b07de9a43a8f85" style="width: 100.0%; height: 100.0%;">Monumen Serangan Umum 1 Maret</div>`)[0];
+                popup_76ad1b361eef152f17759d36fb6174f3.setContent(html_b76f20ae3bb606d874b07de9a43a8f85);
+            
+        
+
+        marker_6536306cc0da2bacb285753b7d95b839.bindPopup(popup_76ad1b361eef152f17759d36fb6174f3)
+        ;
+
+        
+    
+    
+            var marker_6aa0409f4d151b18c28d72939183761e = L.marker(
+                [-7.9020355, 110.4374627],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f979f9da91062b551dc42208ca9e2c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34706757a2ce5de0c0b199bae91db1f5 = $(`<div id="html_34706757a2ce5de0c0b199bae91db1f5" style="width: 100.0%; height: 100.0%;">Puncak Pinus Becici</div>`)[0];
+                popup_f979f9da91062b551dc42208ca9e2c87.setContent(html_34706757a2ce5de0c0b199bae91db1f5);
+            
+        
+
+        marker_6aa0409f4d151b18c28d72939183761e.bindPopup(popup_f979f9da91062b551dc42208ca9e2c87)
+        ;
+
+        
+    
+    
+            var marker_1304cd776a10f2544df018d1d979cd38 = L.marker(
+                [-7.8458407, 110.4798457],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_613b6ddb52d863e4181399afd9618c11 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e05944ca5e85def79e068d97e749f01 = $(`<div id="html_1e05944ca5e85def79e068d97e749f01" style="width: 100.0%; height: 100.0%;">Bukit Bintang Yogyakarta</div>`)[0];
+                popup_613b6ddb52d863e4181399afd9618c11.setContent(html_1e05944ca5e85def79e068d97e749f01);
+            
+        
+
+        marker_1304cd776a10f2544df018d1d979cd38.bindPopup(popup_613b6ddb52d863e4181399afd9618c11)
+        ;
+
+        
+    
+    
+            var marker_748108be96d3af90e2b0c993f84ee3a7 = L.marker(
+                [-7.8001506, 110.3637507],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_895d2ce8648001e910715a9f61cc1fcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5514acafb0b0e82ad281a377e9942f9f = $(`<div id="html_5514acafb0b0e82ad281a377e9942f9f" style="width: 100.0%; height: 100.0%;">Gedung Agung Yogyakarta</div>`)[0];
+                popup_895d2ce8648001e910715a9f61cc1fcc.setContent(html_5514acafb0b0e82ad281a377e9942f9f);
+            
+        
+
+        marker_748108be96d3af90e2b0c993f84ee3a7.bindPopup(popup_895d2ce8648001e910715a9f61cc1fcc)
+        ;
+
+        
+    
+    
+            var marker_182967ab136f543a30392a134c847d5d = L.marker(
+                [-7.6041648, 110.4510042],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d0986e986ad8c58b700716cc4eea1b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8deb2c3258eb0c2a89156f4f71de3949 = $(`<div id="html_8deb2c3258eb0c2a89156f4f71de3949" style="width: 100.0%; height: 100.0%;">The Lost World Castle</div>`)[0];
+                popup_d0986e986ad8c58b700716cc4eea1b08.setContent(html_8deb2c3258eb0c2a89156f4f71de3949);
+            
+        
+
+        marker_182967ab136f543a30392a134c847d5d.bindPopup(popup_d0986e986ad8c58b700716cc4eea1b08)
+        ;
+
+        
+    
+    
+            var marker_8a82e65c2f6fd5afdd99a92f7fe27650 = L.marker(
+                [-7.7881728, 110.3715403],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9ced9b4a1d74eb8964645fa5a39812a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dae7db098943859dbe107c072fc63f5a = $(`<div id="html_dae7db098943859dbe107c072fc63f5a" style="width: 100.0%; height: 100.0%;">Monumen Sanapati</div>`)[0];
+                popup_9ced9b4a1d74eb8964645fa5a39812a4.setContent(html_dae7db098943859dbe107c072fc63f5a);
+            
+        
+
+        marker_8a82e65c2f6fd5afdd99a92f7fe27650.bindPopup(popup_9ced9b4a1d74eb8964645fa5a39812a4)
+        ;
+
+        
+    
+    
+            var marker_ff32cfc9fb79816d95376e3ee265f03f = L.marker(
+                [-7.9401065, 110.4300062],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_0bfdd6ae0b13ad1eefbdf6232f04b634 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83ba8aa46eb8412c1e2852c6bb369a9a = $(`<div id="html_83ba8aa46eb8412c1e2852c6bb369a9a" style="width: 100.0%; height: 100.0%;">Jurang Tembelan Kanigoro</div>`)[0];
+                popup_0bfdd6ae0b13ad1eefbdf6232f04b634.setContent(html_83ba8aa46eb8412c1e2852c6bb369a9a);
+            
+        
+
+        marker_ff32cfc9fb79816d95376e3ee265f03f.bindPopup(popup_0bfdd6ae0b13ad1eefbdf6232f04b634)
+        ;
+
+        
+    
+    
+            var marker_7e6d842af6b85cf9cf50f45827794e3b = L.marker(
+                [-7.6209046, 110.4216275],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_c93b66609bf20e5b025b64912cc0c02b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_383648c935bff2573953b36da58df86e = $(`<div id="html_383648c935bff2573953b36da58df86e" style="width: 100.0%; height: 100.0%;">The World Landmarks - Merapi Park Yogyakarta</div>`)[0];
+                popup_c93b66609bf20e5b025b64912cc0c02b.setContent(html_383648c935bff2573953b36da58df86e);
+            
+        
+
+        marker_7e6d842af6b85cf9cf50f45827794e3b.bindPopup(popup_c93b66609bf20e5b025b64912cc0c02b)
+        ;
+
+        
+    
+    
+            var marker_afeda507d4f00867870229e198eeb167 = L.marker(
+                [-7.8024499, 110.3639555],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_887413ab0ba80e525412b05a1621e0b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3c154526f9b8a9e016a48fab59f6d8 = $(`<div id="html_5c3c154526f9b8a9e016a48fab59f6d8" style="width: 100.0%; height: 100.0%;">Museum Sonobudoyo Unit I</div>`)[0];
+                popup_887413ab0ba80e525412b05a1621e0b0.setContent(html_5c3c154526f9b8a9e016a48fab59f6d8);
+            
+        
+
+        marker_afeda507d4f00867870229e198eeb167.bindPopup(popup_887413ab0ba80e525412b05a1621e0b0)
+        ;
+
+        
+    
+    
+            var marker_884e686ea9dd6ee310e5b735681b3530 = L.marker(
+                [-7.8081518, 110.4595183],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d311dea067dcf9ec8e87318faee0a764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3b65a0a362f504ab627e15f7595fb70 = $(`<div id="html_d3b65a0a362f504ab627e15f7595fb70" style="width: 100.0%; height: 100.0%;">Lava Bantal</div>`)[0];
+                popup_d311dea067dcf9ec8e87318faee0a764.setContent(html_d3b65a0a362f504ab627e15f7595fb70);
+            
+        
+
+        marker_884e686ea9dd6ee310e5b735681b3530.bindPopup(popup_d311dea067dcf9ec8e87318faee0a764)
+        ;
+
+        
+    
+    
+            var marker_febdac50dfb944a01e8f7ed37035fd18 = L.marker(
+                [-7.9583695, 110.4407622],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_06f2b44f5fbb554d63aa4cbe5715823c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba16800d045f160e9f9ab86bdad948d = $(`<div id="html_4ba16800d045f160e9f9ab86bdad948d" style="width: 100.0%; height: 100.0%;">Bukit Panguk Kediwung</div>`)[0];
+                popup_06f2b44f5fbb554d63aa4cbe5715823c.setContent(html_4ba16800d045f160e9f9ab86bdad948d);
+            
+        
+
+        marker_febdac50dfb944a01e8f7ed37035fd18.bindPopup(popup_06f2b44f5fbb554d63aa4cbe5715823c)
+        ;
+
+        
+    
+    
+            var marker_6b833efa3798687e9c8c731e3cc0b550 = L.marker(
+                [-7.7520206, 110.4914674],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_5f1390633a51c63cae76369a47519bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1dcf1f0e1d6a516ba615cc718fec610 = $(`<div id="html_e1dcf1f0e1d6a516ba615cc718fec610" style="width: 100.0%; height: 100.0%;">Candi Prambanan</div>`)[0];
+                popup_5f1390633a51c63cae76369a47519bf5.setContent(html_e1dcf1f0e1d6a516ba615cc718fec610);
+            
+        
+
+        marker_6b833efa3798687e9c8c731e3cc0b550.bindPopup(popup_5f1390633a51c63cae76369a47519bf5)
+        ;
+
+        
+    
+    
+            var marker_f1bb90464b36d8286ad1ae7dcb87273c = L.marker(
+                [-7.9274086, 110.4120586],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4d2e44c625b0d445317c1b7b1dcaf09a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c5edd5546efccfa9faf49c7309c0bb8 = $(`<div id="html_7c5edd5546efccfa9faf49c7309c0bb8" style="width: 100.0%; height: 100.0%;">Watu Goyang</div>`)[0];
+                popup_4d2e44c625b0d445317c1b7b1dcaf09a.setContent(html_7c5edd5546efccfa9faf49c7309c0bb8);
+            
+        
+
+        marker_f1bb90464b36d8286ad1ae7dcb87273c.bindPopup(popup_4d2e44c625b0d445317c1b7b1dcaf09a)
+        ;
+
+        
+    
+    
+            var marker_3de1b45da1f25248c6cf16e1cd5cd663 = L.marker(
+                [-7.8152776, 110.3988359],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_7408646bb5befc123f4245acefe13c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0d7231749d4ac8f6c90d5faee62c67f = $(`<div id="html_c0d7231749d4ac8f6c90d5faee62c67f" style="width: 100.0%; height: 100.0%;">Kampung Wisata Rejowinangun</div>`)[0];
+                popup_7408646bb5befc123f4245acefe13c26.setContent(html_c0d7231749d4ac8f6c90d5faee62c67f);
+            
+        
+
+        marker_3de1b45da1f25248c6cf16e1cd5cd663.bindPopup(popup_7408646bb5befc123f4245acefe13c26)
+        ;
+
+        
+    
+    
+            var marker_f0577afa97de0666c0e0a2382a0ba993 = L.marker(
+                [-7.8010347, 110.3751922],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_6fb8bd222fae269f2804c9412d9d2ee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d2c6cb56727a3856b49f52de4e9374d = $(`<div id="html_2d2c6cb56727a3856b49f52de4e9374d" style="width: 100.0%; height: 100.0%;">Kauman Pakualaman Yogyakarta</div>`)[0];
+                popup_6fb8bd222fae269f2804c9412d9d2ee4.setContent(html_2d2c6cb56727a3856b49f52de4e9374d);
+            
+        
+
+        marker_f0577afa97de0666c0e0a2382a0ba993.bindPopup(popup_6fb8bd222fae269f2804c9412d9d2ee4)
+        ;
+
+        
+    
+    
+            var marker_f3e478f43fbfa7a163c6322dce256ba3 = L.marker(
+                [-7.8038975, 110.3644232],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d8e9756a896e5c3911ce3612dca21799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56887fbb24c0ed5e94807f1fad07a32e = $(`<div id="html_56887fbb24c0ed5e94807f1fad07a32e" style="width: 100.0%; height: 100.0%;">Alun-alun Utara Keraton Yogyakarta</div>`)[0];
+                popup_d8e9756a896e5c3911ce3612dca21799.setContent(html_56887fbb24c0ed5e94807f1fad07a32e);
+            
+        
+
+        marker_f3e478f43fbfa7a163c6322dce256ba3.bindPopup(popup_d8e9756a896e5c3911ce3612dca21799)
+        ;
+
+        
+    
+    
+            var marker_5dedb4c5d9334b3ea0d3bfbc57c5a7f1 = L.marker(
+                [-7.999423, 110.248963],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b51df9e5b84c6f93a22358d8884e7b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27881cc4ba295d7ce2d531d7cb975c75 = $(`<div id="html_27881cc4ba295d7ce2d531d7cb975c75" style="width: 100.0%; height: 100.0%;">Pantai Goa Cemara</div>`)[0];
+                popup_b51df9e5b84c6f93a22358d8884e7b21.setContent(html_27881cc4ba295d7ce2d531d7cb975c75);
+            
+        
+
+        marker_5dedb4c5d9334b3ea0d3bfbc57c5a7f1.bindPopup(popup_b51df9e5b84c6f93a22358d8884e7b21)
+        ;
+
+        
+    
+    
+            var marker_9bef85441f94eedb07be530923a04ce5 = L.marker(
+                [-7.7044358, 110.45026],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f89c97920068fd79aaddf08bf51d4fe7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536d9190af913eb971051ed7ec60eede = $(`<div id="html_536d9190af913eb971051ed7ec60eede" style="width: 100.0%; height: 100.0%;">Blue Lagoon Jogja</div>`)[0];
+                popup_f89c97920068fd79aaddf08bf51d4fe7.setContent(html_536d9190af913eb971051ed7ec60eede);
+            
+        
+
+        marker_9bef85441f94eedb07be530923a04ce5.bindPopup(popup_f89c97920068fd79aaddf08bf51d4fe7)
+        ;
+
+        
+    
+    
+            var marker_27891fcdf69241546cd1a3c3ef6f8a39 = L.marker(
+                [-8.0173266, 110.3180791],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_903809bf0740a09da77810cb4aed7dfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d13f3da312ee59cb46687ac9a19169b7 = $(`<div id="html_d13f3da312ee59cb46687ac9a19169b7" style="width: 100.0%; height: 100.0%;">Gumuk Pasir Parangkusumo</div>`)[0];
+                popup_903809bf0740a09da77810cb4aed7dfb.setContent(html_d13f3da312ee59cb46687ac9a19169b7);
+            
+        
+
+        marker_27891fcdf69241546cd1a3c3ef6f8a39.bindPopup(popup_903809bf0740a09da77810cb4aed7dfb)
+        ;
+
+        
+    
+    
+            var marker_0c0c83917674ef5a3ae3709ca3b3098f = L.marker(
+                [-7.9157997, 110.4366436],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cd3324d8db6f4d6869625c9c077e3495 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d93981df3e203c820f14624c4188bd3 = $(`<div id="html_6d93981df3e203c820f14624c4188bd3" style="width: 100.0%; height: 100.0%;">Bukit Lintang Sewu</div>`)[0];
+                popup_cd3324d8db6f4d6869625c9c077e3495.setContent(html_6d93981df3e203c820f14624c4188bd3);
+            
+        
+
+        marker_0c0c83917674ef5a3ae3709ca3b3098f.bindPopup(popup_cd3324d8db6f4d6869625c9c077e3495)
+        ;
+
+        
+    
+    
+            var marker_2873d5ecf836e24aecae40c476a21676 = L.marker(
+                [-7.8057936, 110.2367304],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_31a90a452ea697ddbdf2490c8d37fcd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdb27c3e67766bb54cb96e9c68df20a9 = $(`<div id="html_cdb27c3e67766bb54cb96e9c68df20a9" style="width: 100.0%; height: 100.0%;">Studio Alam Gamplong</div>`)[0];
+                popup_31a90a452ea697ddbdf2490c8d37fcd7.setContent(html_cdb27c3e67766bb54cb96e9c68df20a9);
+            
+        
+
+        marker_2873d5ecf836e24aecae40c476a21676.bindPopup(popup_31a90a452ea697ddbdf2490c8d37fcd7)
+        ;
+
+        
+    
+    
+            var marker_308c7ce0b3edeeedf53c0d09353ff814 = L.marker(
+                [-7.9924379, 110.317778],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9c32b700a6f278738f08330dbffaac08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9195d1bf15843bbdebbb066d12138047 = $(`<div id="html_9195d1bf15843bbdebbb066d12138047" style="width: 100.0%; height: 100.0%;">Watu Lumbung</div>`)[0];
+                popup_9c32b700a6f278738f08330dbffaac08.setContent(html_9195d1bf15843bbdebbb066d12138047);
+            
+        
+
+        marker_308c7ce0b3edeeedf53c0d09353ff814.bindPopup(popup_9c32b700a6f278738f08330dbffaac08)
+        ;
+
+        
+    
+    
+            var marker_2949959a5b25a236d04a8e99799adedd = L.marker(
+                [-7.7699875, 110.1210707],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d2ff958a8ae0485667f1606098ee7ddc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19fa7a77cddb9dc44795ec4915e6bd1a = $(`<div id="html_19fa7a77cddb9dc44795ec4915e6bd1a" style="width: 100.0%; height: 100.0%;">Air Terjun Kedung Pedut</div>`)[0];
+                popup_d2ff958a8ae0485667f1606098ee7ddc.setContent(html_19fa7a77cddb9dc44795ec4915e6bd1a);
+            
+        
+
+        marker_2949959a5b25a236d04a8e99799adedd.bindPopup(popup_d2ff958a8ae0485667f1606098ee7ddc)
+        ;
+
+        
+    
+    
+            var marker_6181b202da5bb9febd3b411c4c6e3c42 = L.marker(
+                [-7.9413718, 110.4247345],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_3e250f1b0d2241f8b0bb22c233c1de24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37c92264a1f7c57acc5c220828d155de = $(`<div id="html_37c92264a1f7c57acc5c220828d155de" style="width: 100.0%; height: 100.0%;">Puncak Kebun Buah Mangunan</div>`)[0];
+                popup_3e250f1b0d2241f8b0bb22c233c1de24.setContent(html_37c92264a1f7c57acc5c220828d155de);
+            
+        
+
+        marker_6181b202da5bb9febd3b411c4c6e3c42.bindPopup(popup_3e250f1b0d2241f8b0bb22c233c1de24)
+        ;
+
+        
+    
+    
+            var marker_844dbfa216fd38919f7dadf587258e99 = L.marker(
+                [-7.8055232, 110.2374676],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_8dac5d6c2477e4ff6eea8bf61244ae09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf4888e25e9f147044431ec924f27ea4 = $(`<div id="html_cf4888e25e9f147044431ec924f27ea4" style="width: 100.0%; height: 100.0%;">Desa Wisata Gamplong</div>`)[0];
+                popup_8dac5d6c2477e4ff6eea8bf61244ae09.setContent(html_cf4888e25e9f147044431ec924f27ea4);
+            
+        
+
+        marker_844dbfa216fd38919f7dadf587258e99.bindPopup(popup_8dac5d6c2477e4ff6eea8bf61244ae09)
+        ;
+
+        
+    
+    
+            var marker_9990c528426361ee32b349505ca75bff = L.marker(
+                [-7.7916235, 110.361956],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_87f18038b3b615d3e6fbd9df051bc4de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a4ab692771a64ab880c739bd4c59090 = $(`<div id="html_1a4ab692771a64ab880c739bd4c59090" style="width: 100.0%; height: 100.0%;">Kawasan Wisata Sosrowijayan</div>`)[0];
+                popup_87f18038b3b615d3e6fbd9df051bc4de.setContent(html_1a4ab692771a64ab880c739bd4c59090);
+            
+        
+
+        marker_9990c528426361ee32b349505ca75bff.bindPopup(popup_87f18038b3b615d3e6fbd9df051bc4de)
+        ;
+
+        
+    
+    
+            var marker_b481b3c0c076ddcd58de08d4b62b3d73 = L.marker(
+                [-7.6340172, 110.33837],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_558ea50f56bdb4d2c5340b77e887e40c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43202b609cb03258e9cdd52375e1bbc5 = $(`<div id="html_43202b609cb03258e9cdd52375e1bbc5" style="width: 100.0%; height: 100.0%;">Grojogan Watu Purbo Bangunrejo</div>`)[0];
+                popup_558ea50f56bdb4d2c5340b77e887e40c.setContent(html_43202b609cb03258e9cdd52375e1bbc5);
+            
+        
+
+        marker_b481b3c0c076ddcd58de08d4b62b3d73.bindPopup(popup_558ea50f56bdb4d2c5340b77e887e40c)
+        ;
+
+        
+    
+    
+            var marker_c46a47e9e3367214b2fab63eb9d0b537 = L.marker(
+                [-7.8057305, 110.127969],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_44f72801d9544b121a992c7b003ca155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2906a44558b3a828df80613fe732348f = $(`<div id="html_2906a44558b3a828df80613fe732348f" style="width: 100.0%; height: 100.0%;">Wisata Alam Kalibiru</div>`)[0];
+                popup_44f72801d9544b121a992c7b003ca155.setContent(html_2906a44558b3a828df80613fe732348f);
+            
+        
+
+        marker_c46a47e9e3367214b2fab63eb9d0b537.bindPopup(popup_44f72801d9544b121a992c7b003ca155)
+        ;
+
+        
+    
+    
+            var marker_29d323b6a6225ad33b5538eef74b3c71 = L.marker(
+                [-7.7280356, 110.3591712],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9beed51173690c34cda4f9553305dba6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7214bd7ca3911b1025deb6cf6eb7d4d4 = $(`<div id="html_7214bd7ca3911b1025deb6cf6eb7d4d4" style="width: 100.0%; height: 100.0%;">Jogja Exotarium</div>`)[0];
+                popup_9beed51173690c34cda4f9553305dba6.setContent(html_7214bd7ca3911b1025deb6cf6eb7d4d4);
+            
+        
+
+        marker_29d323b6a6225ad33b5538eef74b3c71.bindPopup(popup_9beed51173690c34cda4f9553305dba6)
+        ;
+
+        
+    
+    
+            var marker_5020dc2150d785b65416aa0144d4bb78 = L.marker(
+                [-7.841253, 110.543056],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_292f5cb9c4c1047f21e2a150e59e9d63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c9be09ea6f2f2fc5e902f5d62181f26 = $(`<div id="html_2c9be09ea6f2f2fc5e902f5d62181f26" style="width: 100.0%; height: 100.0%;">Puncak Gunung Api Purba - Nglanggeran</div>`)[0];
+                popup_292f5cb9c4c1047f21e2a150e59e9d63.setContent(html_2c9be09ea6f2f2fc5e902f5d62181f26);
+            
+        
+
+        marker_5020dc2150d785b65416aa0144d4bb78.bindPopup(popup_292f5cb9c4c1047f21e2a150e59e9d63)
+        ;
+
+        
+    
+    
+            var marker_29c9cad79f6d644a0550dc43e9b35042 = L.marker(
+                [-7.8316668, 110.3945119],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_3a13b72fac820a88fbb5ed5b6f92a77b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_248c7e0c6107b4e45f3c7fd1e09f2deb = $(`<div id="html_248c7e0c6107b4e45f3c7fd1e09f2deb" style="width: 100.0%; height: 100.0%;">Bendung Lepen</div>`)[0];
+                popup_3a13b72fac820a88fbb5ed5b6f92a77b.setContent(html_248c7e0c6107b4e45f3c7fd1e09f2deb);
+            
+        
+
+        marker_29c9cad79f6d644a0550dc43e9b35042.bindPopup(popup_3a13b72fac820a88fbb5ed5b6f92a77b)
+        ;
+
+        
+    
+    
+            var marker_00d84606f508fd672f3395bdc63168b8 = L.marker(
+                [-7.5829198, 110.4476816],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_eb8ef1c198d8e1d894364d0e5330939e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5519cd3a58076c0fc1d8cdeee7c79634 = $(`<div id="html_5519cd3a58076c0fc1d8cdeee7c79634" style="width: 100.0%; height: 100.0%;">Bunker Kaliadem Merapi</div>`)[0];
+                popup_eb8ef1c198d8e1d894364d0e5330939e.setContent(html_5519cd3a58076c0fc1d8cdeee7c79634);
+            
+        
+
+        marker_00d84606f508fd672f3395bdc63168b8.bindPopup(popup_eb8ef1c198d8e1d894364d0e5330939e)
+        ;
+
+        
+    
+    
+            var marker_a151a7ee5f299965eb97439ae7839a9e = L.marker(
+                [-7.6470943, 110.4280998],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_599c40d4b00b0bdde836a82904106d3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59c040f530bde5069f7819cc3651ed6a = $(`<div id="html_59c040f530bde5069f7819cc3651ed6a" style="width: 100.0%; height: 100.0%;">Ledok Sambi</div>`)[0];
+                popup_599c40d4b00b0bdde836a82904106d3f.setContent(html_59c040f530bde5069f7819cc3651ed6a);
+            
+        
+
+        marker_a151a7ee5f299965eb97439ae7839a9e.bindPopup(popup_599c40d4b00b0bdde836a82904106d3f)
+        ;
+
+        
+    
+    
+            var marker_0e3e1aa60616efe1e51b3da388e42981 = L.marker(
+                [-7.9310984, 110.430919],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b6e1ad3ad7b634bf2b801fe528c89973 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e25a30ccc47611c38273febfef8a82a = $(`<div id="html_5e25a30ccc47611c38273febfef8a82a" style="width: 100.0%; height: 100.0%;">Seribu Batu Songgo Langit</div>`)[0];
+                popup_b6e1ad3ad7b634bf2b801fe528c89973.setContent(html_5e25a30ccc47611c38273febfef8a82a);
+            
+        
+
+        marker_0e3e1aa60616efe1e51b3da388e42981.bindPopup(popup_b6e1ad3ad7b634bf2b801fe528c89973)
+        ;
+
+        
+    
+    
+            var marker_b03acef9152dbb7431f84f9d2bb134a9 = L.marker(
+                [-8.0281562, 110.6383307],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_07244af6ca2185d368d8a1dfa07de903 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33ecdaf803e055f556ea56b03d5ea36c = $(`<div id="html_33ecdaf803e055f556ea56b03d5ea36c" style="width: 100.0%; height: 100.0%;">Goa Jomblang</div>`)[0];
+                popup_07244af6ca2185d368d8a1dfa07de903.setContent(html_33ecdaf803e055f556ea56b03d5ea36c);
+            
+        
+
+        marker_b03acef9152dbb7431f84f9d2bb134a9.bindPopup(popup_07244af6ca2185d368d8a1dfa07de903)
+        ;
+
+        
+    
+    
+            var marker_6d671463f3a6168c5d0f646cf17d44e9 = L.marker(
+                [-7.8136085, 110.5033442],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cdc17bd15ee89063f74e9e6ccf0941f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f198c048cae9253fe9b1964c50dce07 = $(`<div id="html_9f198c048cae9253fe9b1964c50dce07" style="width: 100.0%; height: 100.0%;">Desa Wisata Rumah Domes/Teletubbies</div>`)[0];
+                popup_cdc17bd15ee89063f74e9e6ccf0941f3.setContent(html_9f198c048cae9253fe9b1964c50dce07);
+            
+        
+
+        marker_6d671463f3a6168c5d0f646cf17d44e9.bindPopup(popup_cdc17bd15ee89063f74e9e6ccf0941f3)
+        ;
+
+        
+    
+    
+            var marker_9a79a777fec319b35e9b10007e22d32d = L.marker(
+                [-7.8001106, 110.1238954],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b65905f57828486bbd58be6fc7b8fb0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7254ac9ddc9f7f4212557abcc356c5a8 = $(`<div id="html_7254ac9ddc9f7f4212557abcc356c5a8" style="width: 100.0%; height: 100.0%;">Bukit Wisata Pulepayung</div>`)[0];
+                popup_b65905f57828486bbd58be6fc7b8fb0f.setContent(html_7254ac9ddc9f7f4212557abcc356c5a8);
+            
+        
+
+        marker_9a79a777fec319b35e9b10007e22d32d.bindPopup(popup_b65905f57828486bbd58be6fc7b8fb0f)
+        ;
+
+        
+    
+    
+            var marker_7bebde20aa42520ed9512481ce3d7e67 = L.marker(
+                [-7.7857242, 110.3746954],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_5b7ca7cff26b30b2c3f7e5d415e95d57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a26f37b074a43d1966d3853bf3711cd8 = $(`<div id="html_a26f37b074a43d1966d3853bf3711cd8" style="width: 100.0%; height: 100.0%;">Bentara Budaya Yogyakarta (BBY)</div>`)[0];
+                popup_5b7ca7cff26b30b2c3f7e5d415e95d57.setContent(html_a26f37b074a43d1966d3853bf3711cd8);
+            
+        
+
+        marker_7bebde20aa42520ed9512481ce3d7e67.bindPopup(popup_5b7ca7cff26b30b2c3f7e5d415e95d57)
+        ;
+
+        
+    
+    
+            var marker_a87b587330da5a140266a914814acf4b = L.marker(
+                [-7.9492612, 110.4926511],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_1681785a2eebfd196c2e0d2c465629c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_410fa4c37c2ed79c9a70ee8e0a89c6a9 = $(`<div id="html_410fa4c37c2ed79c9a70ee8e0a89c6a9" style="width: 100.0%; height: 100.0%;">Goa Rancang Kencono</div>`)[0];
+                popup_1681785a2eebfd196c2e0d2c465629c8.setContent(html_410fa4c37c2ed79c9a70ee8e0a89c6a9);
+            
+        
+
+        marker_a87b587330da5a140266a914814acf4b.bindPopup(popup_1681785a2eebfd196c2e0d2c465629c8)
+        ;
+
+        
+    
+    
+            var marker_b59bb5378fe739ffd95c22471857a123 = L.marker(
+                [-7.9794413, 110.3803114],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_79f46db361cae733902f5eb309c4b63a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6a03b5afd66fa1124117d9651cf9836 = $(`<div id="html_a6a03b5afd66fa1124117d9651cf9836" style="width: 100.0%; height: 100.0%;">Goa Cerme</div>`)[0];
+                popup_79f46db361cae733902f5eb309c4b63a.setContent(html_a6a03b5afd66fa1124117d9651cf9836);
+            
+        
+
+        marker_b59bb5378fe739ffd95c22471857a123.bindPopup(popup_79f46db361cae733902f5eb309c4b63a)
+        ;
+
+        
+    
+    
+            var marker_c8c984bde24d1a15e2fada3b2dbbc8cb = L.marker(
+                [-7.8067535, 110.3636659],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_a5abfe220c32ba540bf31a2852177ddc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4b478614ef8ff06def006e739b4985a = $(`<div id="html_d4b478614ef8ff06def006e739b4985a" style="width: 100.0%; height: 100.0%;">Wisata Kraton Jogja</div>`)[0];
+                popup_a5abfe220c32ba540bf31a2852177ddc.setContent(html_d4b478614ef8ff06def006e739b4985a);
+            
+        
+
+        marker_c8c984bde24d1a15e2fada3b2dbbc8cb.bindPopup(popup_a5abfe220c32ba540bf31a2852177ddc)
+        ;
+
+        
+    
+    
+            var marker_786eb39f397f193c3da8121a00a301cd = L.marker(
+                [-7.6410258, 110.3622794],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cc231b23c7d8ea8c8884795407142f1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59f6a123a10b5791c6413172b1a83992 = $(`<div id="html_59f6a123a10b5791c6413172b1a83992" style="width: 100.0%; height: 100.0%;">Desa Wisata Kelor</div>`)[0];
+                popup_cc231b23c7d8ea8c8884795407142f1f.setContent(html_59f6a123a10b5791c6413172b1a83992);
+            
+        
+
+        marker_786eb39f397f193c3da8121a00a301cd.bindPopup(popup_cc231b23c7d8ea8c8884795407142f1f)
+        ;
+
+        
+    
+    
+            var marker_939e70693572c6e2fc762390447117cf = L.marker(
+                [-7.997778, 110.2449113],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d16031e627ec51f6555111c46b5caf71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45020424b00df088f49531adb306b616 = $(`<div id="html_45020424b00df088f49531adb306b616" style="width: 100.0%; height: 100.0%;">Pantai Patihan</div>`)[0];
+                popup_d16031e627ec51f6555111c46b5caf71.setContent(html_45020424b00df088f49531adb306b616);
+            
+        
+
+        marker_939e70693572c6e2fc762390447117cf.bindPopup(popup_d16031e627ec51f6555111c46b5caf71)
+        ;
+
+        
+    
+    
+            var marker_2365e4519bbb8f442e1c5c4e3b590194 = L.marker(
+                [-8.1338763, 110.5548349],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_41372e86784351e7287542bf994256e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95b5e905639fade37d94a4f85b211aee = $(`<div id="html_95b5e905639fade37d94a4f85b211aee" style="width: 100.0%; height: 100.0%;">Pantai Kukup</div>`)[0];
+                popup_41372e86784351e7287542bf994256e6.setContent(html_95b5e905639fade37d94a4f85b211aee);
+            
+        
+
+        marker_2365e4519bbb8f442e1c5c4e3b590194.bindPopup(popup_41372e86784351e7287542bf994256e6)
+        ;
+
+        
+    
+    
+            var marker_0c80166897f9dbce1865a64a5ab799c2 = L.marker(
+                [-8.1333389, 110.5537405],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d16a4b786fcd63970b9c06490a937d2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f29b5119e5224acc4001fc37230e06e4 = $(`<div id="html_f29b5119e5224acc4001fc37230e06e4" style="width: 100.0%; height: 100.0%;">Pantai Ngrawe (Mesra)</div>`)[0];
+                popup_d16a4b786fcd63970b9c06490a937d2a.setContent(html_f29b5119e5224acc4001fc37230e06e4);
+            
+        
+
+        marker_0c80166897f9dbce1865a64a5ab799c2.bindPopup(popup_d16a4b786fcd63970b9c06490a937d2a)
+        ;
+
+        
+    
+    
+            var marker_5742ab10771105890f4a399b5ef04dca = L.marker(
+                [-8.1184844, 110.5028785],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9f0a2a3627f969cdbf1f908b4f37a2cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d07f835a55e7301cc68b52eecf15207 = $(`<div id="html_1d07f835a55e7301cc68b52eecf15207" style="width: 100.0%; height: 100.0%;">Pantai Ngobaran</div>`)[0];
+                popup_9f0a2a3627f969cdbf1f908b4f37a2cf.setContent(html_1d07f835a55e7301cc68b52eecf15207);
+            
+        
+
+        marker_5742ab10771105890f4a399b5ef04dca.bindPopup(popup_9f0a2a3627f969cdbf1f908b4f37a2cf)
+        ;
+
+        
+    
+    
+            var marker_ce6377ada8689ff6cf67015e5c04ba89 = L.marker(
+                [-8.1506589, 110.6126311],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d5e9aeecf8031c090f7dbf95aa2b858d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b41dd69a5dabc8c06953f0fdf8a120 = $(`<div id="html_88b41dd69a5dabc8c06953f0fdf8a120" style="width: 100.0%; height: 100.0%;">Pantai Pulang Sawal</div>`)[0];
+                popup_d5e9aeecf8031c090f7dbf95aa2b858d.setContent(html_88b41dd69a5dabc8c06953f0fdf8a120);
+            
+        
+
+        marker_ce6377ada8689ff6cf67015e5c04ba89.bindPopup(popup_d5e9aeecf8031c090f7dbf95aa2b858d)
+        ;
+
+        
+    
+    
+            var marker_a420aaa27001b821f7de9db15b4347d8 = L.marker(
+                [-8.1288246, 110.5487763],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b431c260eedb8da8600ee383396989b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4e221d5303d9a2645c373712c2a63a0 = $(`<div id="html_b4e221d5303d9a2645c373712c2a63a0" style="width: 100.0%; height: 100.0%;">Pantai Baron</div>`)[0];
+                popup_b431c260eedb8da8600ee383396989b5.setContent(html_b4e221d5303d9a2645c373712c2a63a0);
+            
+        
+
+        marker_a420aaa27001b821f7de9db15b4347d8.bindPopup(popup_b431c260eedb8da8600ee383396989b5)
+        ;
+
+        
+    
+    
+            var marker_1d4184f9da45294e689a9072dc4471f8 = L.marker(
+                [-8.1554468, 110.6217582],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_a0df25910b677137f80961c3fc73ca47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e4530a15a94d868450a131a133fd3e6 = $(`<div id="html_6e4530a15a94d868450a131a133fd3e6" style="width: 100.0%; height: 100.0%;">Pantai Pok Tunggal</div>`)[0];
+                popup_a0df25910b677137f80961c3fc73ca47.setContent(html_6e4530a15a94d868450a131a133fd3e6);
+            
+        
+
+        marker_1d4184f9da45294e689a9072dc4471f8.bindPopup(popup_a0df25910b677137f80961c3fc73ca47)
+        ;
+
+        
+    
+    
+            var marker_677e657aab3163ae20a9e84dbc74ac5d = L.marker(
+                [-7.9209209, 110.4355651],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_be1bec545ba455513b9c3e5f2cbc5512 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9b87a45a9e12c3266f87378196d663d = $(`<div id="html_c9b87a45a9e12c3266f87378196d663d" style="width: 100.0%; height: 100.0%;">Hutan Pinus Asri</div>`)[0];
+                popup_be1bec545ba455513b9c3e5f2cbc5512.setContent(html_c9b87a45a9e12c3266f87378196d663d);
+            
+        
+
+        marker_677e657aab3163ae20a9e84dbc74ac5d.bindPopup(popup_be1bec545ba455513b9c3e5f2cbc5512)
+        ;
+
+        
+    
+    
+            var marker_0bd47d6afce6ce5b6ce2d3cbbc49b665 = L.marker(
+                [-7.8363205, 110.4575806],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_afd8fb346053ee1ff0bc0bc9fb3be3f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_687ae2b20d24c3564f33d850e2a1ee01 = $(`<div id="html_687ae2b20d24c3564f33d850e2a1ee01" style="width: 100.0%; height: 100.0%;">Pasar Kebon Empring Bintaran</div>`)[0];
+                popup_afd8fb346053ee1ff0bc0bc9fb3be3f3.setContent(html_687ae2b20d24c3564f33d850e2a1ee01);
+            
+        
+
+        marker_0bd47d6afce6ce5b6ce2d3cbbc49b665.bindPopup(popup_afd8fb346053ee1ff0bc0bc9fb3be3f3)
+        ;
+
+        
+    
+    
+            var marker_2553e4640df4ae475acffb28a7640c2e = L.marker(
+                [-8.0268551, 110.3459122],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_806fde7602cee73e7a825568b0fba4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bec21e0f9b8ecfe9718a0ef02ae0f958 = $(`<div id="html_bec21e0f9b8ecfe9718a0ef02ae0f958" style="width: 100.0%; height: 100.0%;">Bukit Paralayang, Watugupit</div>`)[0];
+                popup_806fde7602cee73e7a825568b0fba4c0.setContent(html_bec21e0f9b8ecfe9718a0ef02ae0f958);
+            
+        
+
+        marker_2553e4640df4ae475acffb28a7640c2e.bindPopup(popup_806fde7602cee73e7a825568b0fba4c0)
+        ;
+
+        
+    
+    
+            var marker_19b86f239dd213b35441d6c48df4221a = L.marker(
+                [-7.8105529, 110.3704987],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_647062a04c5af2d0c0efcb34f610a3b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c552c2e37134317960f303d3bc0002b7 = $(`<div id="html_c552c2e37134317960f303d3bc0002b7" style="width: 100.0%; height: 100.0%;">Kampung Wisata Dipowinatan</div>`)[0];
+                popup_647062a04c5af2d0c0efcb34f610a3b6.setContent(html_c552c2e37134317960f303d3bc0002b7);
+            
+        
+
+        marker_19b86f239dd213b35441d6c48df4221a.bindPopup(popup_647062a04c5af2d0c0efcb34f610a3b6)
+        ;
+
+        
+    
+    
+            var marker_375be5a3fd0f00301040d502b0a6afa5 = L.marker(
+                [-7.947121, 110.441],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_78aa4357e871127fc6cd6f26c2aa4c14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce77138f6678f57e5fe3589ec3cc6e46 = $(`<div id="html_ce77138f6678f57e5fe3589ec3cc6e46" style="width: 100.0%; height: 100.0%;">Watu Mabur Mangunan</div>`)[0];
+                popup_78aa4357e871127fc6cd6f26c2aa4c14.setContent(html_ce77138f6678f57e5fe3589ec3cc6e46);
+            
+        
+
+        marker_375be5a3fd0f00301040d502b0a6afa5.bindPopup(popup_78aa4357e871127fc6cd6f26c2aa4c14)
+        ;
+
+        
+    
+    
+            var marker_144bc693faba5d68e1aba899eb6127a5 = L.marker(
+                [-7.913608, 110.437783],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4c6a414e16af9bf2f9115fa718f4be8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_448d9823731f6be37080a8516d8cdc64 = $(`<div id="html_448d9823731f6be37080a8516d8cdc64" style="width: 100.0%; height: 100.0%;">Pintoe Langit Dahromo</div>`)[0];
+                popup_4c6a414e16af9bf2f9115fa718f4be8c.setContent(html_448d9823731f6be37080a8516d8cdc64);
+            
+        
+
+        marker_144bc693faba5d68e1aba899eb6127a5.bindPopup(popup_4c6a414e16af9bf2f9115fa718f4be8c)
+        ;
+
+        
+    
+    
+            var marker_fcefd04e019d36d63f353c819736fd4e = L.marker(
+                [-7.813094, 110.615571],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_5e7b836d243e6faaa3dbe5ce8eb4d510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3174712cc09c8f8caea80148e492f6 = $(`<div id="html_bf3174712cc09c8f8caea80148e492f6" style="width: 100.0%; height: 100.0%;">Green Village Gedangsari</div>`)[0];
+                popup_5e7b836d243e6faaa3dbe5ce8eb4d510.setContent(html_bf3174712cc09c8f8caea80148e492f6);
+            
+        
+
+        marker_fcefd04e019d36d63f353c819736fd4e.bindPopup(popup_5e7b836d243e6faaa3dbe5ce8eb4d510)
+        ;
+
+        
+    
+    
+            var marker_93609cdaf2517aa7e27656af0cd9b23f = L.marker(
+                [-7.647054, 110.1414699],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_6bf5374874eb5c56af7852884e1aebc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_865b858f050a9a2ddcdd7b2a2b26d111 = $(`<div id="html_865b858f050a9a2ddcdd7b2a2b26d111" style="width: 100.0%; height: 100.0%;">Kebun Teh Nglinggo</div>`)[0];
+                popup_6bf5374874eb5c56af7852884e1aebc1.setContent(html_865b858f050a9a2ddcdd7b2a2b26d111);
+            
+        
+
+        marker_93609cdaf2517aa7e27656af0cd9b23f.bindPopup(popup_6bf5374874eb5c56af7852884e1aebc1)
+        ;
+
+        
+    
+    
+            var marker_296c0c9d85c7eef52965b62fd4a15bb7 = L.marker(
+                [-7.974294, 110.4364363],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_14cbd0daf56f7e660cdc7a59474070ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e259098589c71884ca4bfd4ce6a982 = $(`<div id="html_08e259098589c71884ca4bfd4ce6a982" style="width: 100.0%; height: 100.0%;">Geoforest Watu Payung Turunan</div>`)[0];
+                popup_14cbd0daf56f7e660cdc7a59474070ec.setContent(html_08e259098589c71884ca4bfd4ce6a982);
+            
+        
+
+        marker_296c0c9d85c7eef52965b62fd4a15bb7.bindPopup(popup_14cbd0daf56f7e660cdc7a59474070ec)
+        ;
+
+        
+    
+    
+            var marker_641c3090828e1ca8bc3de5aa68fea3f5 = L.marker(
+                [-8.1759266, 110.6624196],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4a74137a4535ed7c46abbcfe65e388f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_841946abe881ed3f6f18fa01a011c2c6 = $(`<div id="html_841946abe881ed3f6f18fa01a011c2c6" style="width: 100.0%; height: 100.0%;">Pantai Timang</div>`)[0];
+                popup_4a74137a4535ed7c46abbcfe65e388f6.setContent(html_841946abe881ed3f6f18fa01a011c2c6);
+            
+        
+
+        marker_641c3090828e1ca8bc3de5aa68fea3f5.bindPopup(popup_4a74137a4535ed7c46abbcfe65e388f6)
+        ;
+
+        
+    
+    
+            var marker_82ecc1b336590cfb6f55ab010cd144c9 = L.marker(
+                [-8.1026167, 110.4562084],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f96c0c18138cda9ad392666cb66709b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae4b04e03ae8f31889c1cddfe1b47971 = $(`<div id="html_ae4b04e03ae8f31889c1cddfe1b47971" style="width: 100.0%; height: 100.0%;">Puncak Segoro</div>`)[0];
+                popup_f96c0c18138cda9ad392666cb66709b9.setContent(html_ae4b04e03ae8f31889c1cddfe1b47971);
+            
+        
+
+        marker_82ecc1b336590cfb6f55ab010cd144c9.bindPopup(popup_f96c0c18138cda9ad392666cb66709b9)
+        ;
+
+        
+    
+    
+            var marker_2016d824e69602165323371c84eb001b = L.marker(
+                [-7.6078738, 110.2037513],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d37936f5b1a78871a7ca7d52e8e407d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47358b69dbc96e09d1f43d78ea6f94df = $(`<div id="html_47358b69dbc96e09d1f43d78ea6f94df" style="width: 100.0%; height: 100.0%;">Candi Borobudur</div>`)[0];
+                popup_d37936f5b1a78871a7ca7d52e8e407d7.setContent(html_47358b69dbc96e09d1f43d78ea6f94df);
+            
+        
+
+        marker_2016d824e69602165323371c84eb001b.bindPopup(popup_d37936f5b1a78871a7ca7d52e8e407d7)
+        ;
+
+        
+    
+    
+            var marker_850c4401873ad577b4d753e2533cac62 = L.marker(
+                [-7.7838276, 110.5118987],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cb4d59f1be9dfed4f60bd91a3566b420 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_123a9e12013453ac115b0670e24e3065 = $(`<div id="html_123a9e12013453ac115b0670e24e3065" style="width: 100.0%; height: 100.0%;">Candi Ijo</div>`)[0];
+                popup_cb4d59f1be9dfed4f60bd91a3566b420.setContent(html_123a9e12013453ac115b0670e24e3065);
+            
+        
+
+        marker_850c4401873ad577b4d753e2533cac62.bindPopup(popup_cb4d59f1be9dfed4f60bd91a3566b420)
+        ;
+
+        
+    
+    
+            var marker_a51d1b72fb78065deb0d2ed73e16bbb7 = L.marker(
+                [-8.1508415, 110.6129852],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_bde6b7664c3ad6f82d36a4ca2684713b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1f6639fbbb3078f8b25b04d19c222f4 = $(`<div id="html_d1f6639fbbb3078f8b25b04d19c222f4" style="width: 100.0%; height: 100.0%;">Pantai Indrayanti</div>`)[0];
+                popup_bde6b7664c3ad6f82d36a4ca2684713b.setContent(html_d1f6639fbbb3078f8b25b04d19c222f4);
+            
+        
+
+        marker_a51d1b72fb78065deb0d2ed73e16bbb7.bindPopup(popup_bde6b7664c3ad6f82d36a4ca2684713b)
+        ;
+
+        
+    
+    
+            var marker_da368787fea349634650c741799d77d2 = L.marker(
+                [-8.1827028, 110.6792399],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_3487a570a357ca1a00d46936ee2a2843 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_585f7cfb8f81d6d239a1b8a8d1bb0f4e = $(`<div id="html_585f7cfb8f81d6d239a1b8a8d1bb0f4e" style="width: 100.0%; height: 100.0%;">Pantai Nglambor</div>`)[0];
+                popup_3487a570a357ca1a00d46936ee2a2843.setContent(html_585f7cfb8f81d6d239a1b8a8d1bb0f4e);
+            
+        
+
+        marker_da368787fea349634650c741799d77d2.bindPopup(popup_3487a570a357ca1a00d46936ee2a2843)
+        ;
+
+        
+    
+    
+            var marker_bc0dab0ed2798fac8ccf96047d6b983a = L.marker(
+                [-7.7987943, 110.367443],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_c64f8c34019cc6530d87e05027cff503 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_702f09f44002c6e5c977f16ad8323810 = $(`<div id="html_702f09f44002c6e5c977f16ad8323810" style="width: 100.0%; height: 100.0%;">Pasar Beringharjo</div>`)[0];
+                popup_c64f8c34019cc6530d87e05027cff503.setContent(html_702f09f44002c6e5c977f16ad8323810);
+            
+        
+
+        marker_bc0dab0ed2798fac8ccf96047d6b983a.bindPopup(popup_c64f8c34019cc6530d87e05027cff503)
+        ;
+
+        
+    
+    
+            var marker_a15fba0f5417834a8a141403024983ab = L.marker(
+                [-7.5978656, 110.4233959],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_1be2abc2348b154be897431682795a54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83cead9074380b5a0bc71db54f381109 = $(`<div id="html_83cead9074380b5a0bc71db54f381109" style="width: 100.0%; height: 100.0%;">Museum Ullen Sentalu</div>`)[0];
+                popup_1be2abc2348b154be897431682795a54.setContent(html_83cead9074380b5a0bc71db54f381109);
+            
+        
+
+        marker_a15fba0f5417834a8a141403024983ab.bindPopup(popup_1be2abc2348b154be897431682795a54)
+        ;
+
+        
+    
+    
+            var marker_f835448e5f3535c3e22454074114147b = L.marker(
+                [-7.6159272, 110.4243329],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4e161f86c6c8d7c2a18a53b79cc0bcf2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4562022d38bc1c084194f9addc86aa0b = $(`<div id="html_4562022d38bc1c084194f9addc86aa0b" style="width: 100.0%; height: 100.0%;">Museum Gunung Merapi</div>`)[0];
+                popup_4e161f86c6c8d7c2a18a53b79cc0bcf2.setContent(html_4562022d38bc1c084194f9addc86aa0b);
+            
+        
+
+        marker_f835448e5f3535c3e22454074114147b.bindPopup(popup_4e161f86c6c8d7c2a18a53b79cc0bcf2)
+        ;
+
+        
+    
+    
+            var marker_3f5f6ea72ec56976b3ac3cb68eba57f9 = L.marker(
+                [-8.024608, 110.3298045],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_85c9758e591e0ca7a98d94f8ec2be51f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5b6432dcdd1595209e205e13e153723 = $(`<div id="html_f5b6432dcdd1595209e205e13e153723" style="width: 100.0%; height: 100.0%;">Pantai Parangtritis</div>`)[0];
+                popup_85c9758e591e0ca7a98d94f8ec2be51f.setContent(html_f5b6432dcdd1595209e205e13e153723);
+            
+        
+
+        marker_3f5f6ea72ec56976b3ac3cb68eba57f9.bindPopup(popup_85c9758e591e0ca7a98d94f8ec2be51f)
+        ;
+
+        
+    
+    
+            var marker_120a41539626e4327a0c6cd0840d7ded = L.marker(
+                [-7.9339721, 110.651966],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_349e6d3255a8d25e706b776ca161ede2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8467efdb4d6790db3dd713e7596d4882 = $(`<div id="html_8467efdb4d6790db3dd713e7596d4882" style="width: 100.0%; height: 100.0%;">Goa Pindul</div>`)[0];
+                popup_349e6d3255a8d25e706b776ca161ede2.setContent(html_8467efdb4d6790db3dd713e7596d4882);
+            
+        
+
+        marker_120a41539626e4327a0c6cd0840d7ded.bindPopup(popup_349e6d3255a8d25e706b776ca161ede2)
+        ;
+
+        
+    
+    
+            var marker_358607af68d5602c0aaec02b025e035c = L.marker(
+                [-7.7705416, 110.4894158],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_9dab7034ec0c516153056b08d396a690 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f6ff5e7bf6071af8e83249f3178450d = $(`<div id="html_4f6ff5e7bf6071af8e83249f3178450d" style="width: 100.0%; height: 100.0%;">Candi Ratu Boko</div>`)[0];
+                popup_9dab7034ec0c516153056b08d396a690.setContent(html_4f6ff5e7bf6071af8e83249f3178450d);
+            
+        
+
+        marker_358607af68d5602c0aaec02b025e035c.bindPopup(popup_9dab7034ec0c516153056b08d396a690)
+        ;
+
+        
+    
+    
+            var marker_5d74bab9e83993544e071184b44576cf = L.marker(
+                [-8.0137087, 110.2914777],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_07367a7afd62a533c948f94256d6dd12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_941b807b8505699b003997c36df84ce6 = $(`<div id="html_941b807b8505699b003997c36df84ce6" style="width: 100.0%; height: 100.0%;">Pantai Depok Jogja</div>`)[0];
+                popup_07367a7afd62a533c948f94256d6dd12.setContent(html_941b807b8505699b003997c36df84ce6);
+            
+        
+
+        marker_5d74bab9e83993544e071184b44576cf.bindPopup(popup_07367a7afd62a533c948f94256d6dd12)
+        ;
+
+        
+    
+    
+            var marker_4493ef7ea4dd4f641df3e3c46c9c078d = L.marker(
+                [-8.147072, 110.6079043],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_0059fdd1fb4e0ac5abf12edd2c8f9132 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a0cfe67d474cf09267e4ad825ec7327 = $(`<div id="html_6a0cfe67d474cf09267e4ad825ec7327" style="width: 100.0%; height: 100.0%;">Pantai Sundak</div>`)[0];
+                popup_0059fdd1fb4e0ac5abf12edd2c8f9132.setContent(html_6a0cfe67d474cf09267e4ad825ec7327);
+            
+        
+
+        marker_4493ef7ea4dd4f641df3e3c46c9c078d.bindPopup(popup_0059fdd1fb4e0ac5abf12edd2c8f9132)
+        ;
+
+        
+    
+    
+            var marker_26407c529951fa6d2cf29418cd0121e4 = L.marker(
+                [-7.8933459, 110.0198257],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_1b2d5aea3f14b2a7318b5c42ee5e1173 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4c0963b373925c6e7b47832b5f701d9 = $(`<div id="html_d4c0963b373925c6e7b47832b5f701d9" style="width: 100.0%; height: 100.0%;">Hutan Mangrove Kulon Progo</div>`)[0];
+                popup_1b2d5aea3f14b2a7318b5c42ee5e1173.setContent(html_d4c0963b373925c6e7b47832b5f701d9);
+            
+        
+
+        marker_26407c529951fa6d2cf29418cd0121e4.bindPopup(popup_1b2d5aea3f14b2a7318b5c42ee5e1173)
+        ;
+
+        
+    
+    
+            var marker_0c851046fd5c2e23b376eac538e716e2 = L.marker(
+                [-7.7478461, 110.4188754],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f31f8ca5e82acfd6e8a62bbc5d069314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d62d7f41df7003dc76dd5e02d841fbc8 = $(`<div id="html_d62d7f41df7003dc76dd5e02d841fbc8" style="width: 100.0%; height: 100.0%;">Jogja Bay Pirates Adventure Waterpark</div>`)[0];
+                popup_f31f8ca5e82acfd6e8a62bbc5d069314.setContent(html_d62d7f41df7003dc76dd5e02d841fbc8);
+            
+        
+
+        marker_0c851046fd5c2e23b376eac538e716e2.bindPopup(popup_f31f8ca5e82acfd6e8a62bbc5d069314)
+        ;
+
+        
+    
+    
+            var marker_9f8869ca92e4294d9fe2c1e48b2c7cd6 = L.marker(
+                [-8.1366656, 110.5659962],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_b92c9ab608cb536998f655415a7c540c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cf898cdca07a529c228374f0697a618 = $(`<div id="html_2cf898cdca07a529c228374f0697a618" style="width: 100.0%; height: 100.0%;">Pantai Sepanjang</div>`)[0];
+                popup_b92c9ab608cb536998f655415a7c540c.setContent(html_2cf898cdca07a529c228374f0697a618);
+            
+        
+
+        marker_9f8869ca92e4294d9fe2c1e48b2c7cd6.bindPopup(popup_b92c9ab608cb536998f655415a7c540c)
+        ;
+
+        
+    
+    
+            var marker_26620c6c115769410d95493c9759dfef = L.marker(
+                [-8.145019, 110.5998857],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d8ed8570ddbafe20153ef2b73e74352b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e9cdd1dd77b32f0fff06a95a31fe49a = $(`<div id="html_2e9cdd1dd77b32f0fff06a95a31fe49a" style="width: 100.0%; height: 100.0%;">Pantai Krakal</div>`)[0];
+                popup_d8ed8570ddbafe20153ef2b73e74352b.setContent(html_2e9cdd1dd77b32f0fff06a95a31fe49a);
+            
+        
+
+        marker_26620c6c115769410d95493c9759dfef.bindPopup(popup_d8ed8570ddbafe20153ef2b73e74352b)
+        ;
+
+        
+    
+    
+            var marker_46d4f881d4c2d814317e179cfc4ab50b = L.marker(
+                [-7.9119427, 110.0647339],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_ee9a1ddfdf114a7cbddb57e2a86073cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db09a4b16e1dcdb7b61859db88896ca5 = $(`<div id="html_db09a4b16e1dcdb7b61859db88896ca5" style="width: 100.0%; height: 100.0%;">Pantai Glagah</div>`)[0];
+                popup_ee9a1ddfdf114a7cbddb57e2a86073cb.setContent(html_db09a4b16e1dcdb7b61859db88896ca5);
+            
+        
+
+        marker_46d4f881d4c2d814317e179cfc4ab50b.bindPopup(popup_ee9a1ddfdf114a7cbddb57e2a86073cb)
+        ;
+
+        
+    
+    
+            var marker_2940a6cace6e322d0195a90ea50086d3 = L.marker(
+                [-8.1818233, 110.6832394],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_dca22c5590745c8f7d1578e18d28b4c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b49f736ee73b7f25ecd6bd903d4248c = $(`<div id="html_3b49f736ee73b7f25ecd6bd903d4248c" style="width: 100.0%; height: 100.0%;">Pantai Siung</div>`)[0];
+                popup_dca22c5590745c8f7d1578e18d28b4c3.setContent(html_3b49f736ee73b7f25ecd6bd903d4248c);
+            
+        
+
+        marker_2940a6cace6e322d0195a90ea50086d3.bindPopup(popup_dca22c5590745c8f7d1578e18d28b4c3)
+        ;
+
+        
+    
+    
+            var marker_db69e139d87ba77838c3023dfec6317f = L.marker(
+                [-8.145668, 110.6043914],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4553679f7db02e29bb07e7abb006d8d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9c452f05705c51d1945c1c63a30f48b = $(`<div id="html_b9c452f05705c51d1945c1c63a30f48b" style="width: 100.0%; height: 100.0%;">Pantai Sadranan</div>`)[0];
+                popup_4553679f7db02e29bb07e7abb006d8d6.setContent(html_b9c452f05705c51d1945c1c63a30f48b);
+            
+        
+
+        marker_db69e139d87ba77838c3023dfec6317f.bindPopup(popup_4553679f7db02e29bb07e7abb006d8d6)
+        ;
+
+        
+    
+    
+            var marker_a913ddd8a18f6d0d56a895d5340a9b4d = L.marker(
+                [-8.1060061, 110.4618655],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_d255e2af37aa19b1f07804afdc96af27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4f868892a0ca92472e7f81e718d5372 = $(`<div id="html_c4f868892a0ca92472e7f81e718d5372" style="width: 100.0%; height: 100.0%;">Pantai Nguluran</div>`)[0];
+                popup_d255e2af37aa19b1f07804afdc96af27.setContent(html_c4f868892a0ca92472e7f81e718d5372);
+            
+        
+
+        marker_a913ddd8a18f6d0d56a895d5340a9b4d.bindPopup(popup_d255e2af37aa19b1f07804afdc96af27)
+        ;
+
+        
+    
+    
+            var marker_0e6a8ec270785d9fe83842e5447e5ee3 = L.marker(
+                [-8.0045535, 110.2703756],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_31bd2cf8280f90f140a6791eff57932d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c44cc01251973aaa2e658d4aef38be75 = $(`<div id="html_c44cc01251973aaa2e658d4aef38be75" style="width: 100.0%; height: 100.0%;">Pantai Samas</div>`)[0];
+                popup_31bd2cf8280f90f140a6791eff57932d.setContent(html_c44cc01251973aaa2e658d4aef38be75);
+            
+        
+
+        marker_0e6a8ec270785d9fe83842e5447e5ee3.bindPopup(popup_31bd2cf8280f90f140a6791eff57932d)
+        ;
+
+        
+    
+    
+            var marker_f0439430a7ceccfc1e4c8245dc665cda = L.marker(
+                [-8.1384509, 110.577522],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_28336377f5172fed78f0a79f54c1e29f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5dfa4583388bd9af505657f1aa7b04d = $(`<div id="html_b5dfa4583388bd9af505657f1aa7b04d" style="width: 100.0%; height: 100.0%;">Pantai Drini</div>`)[0];
+                popup_28336377f5172fed78f0a79f54c1e29f.setContent(html_b5dfa4583388bd9af505657f1aa7b04d);
+            
+        
+
+        marker_f0439430a7ceccfc1e4c8245dc665cda.bindPopup(popup_28336377f5172fed78f0a79f54c1e29f)
+        ;
+
+        
+    
+    
+            var marker_5a64760bb3a523fe1ae00ff556060f60 = L.marker(
+                [-7.943178, 110.48924],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_a999312741ecbc6a2c52be0823e63ecf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2756d11918c6c915d356e74366abe4bb = $(`<div id="html_2756d11918c6c915d356e74366abe4bb" style="width: 100.0%; height: 100.0%;">Air Terjun Sri Gethuk</div>`)[0];
+                popup_a999312741ecbc6a2c52be0823e63ecf.setContent(html_2756d11918c6c915d356e74366abe4bb);
+            
+        
+
+        marker_5a64760bb3a523fe1ae00ff556060f60.bindPopup(popup_a999312741ecbc6a2c52be0823e63ecf)
+        ;
+
+        
+    
+    
+            var marker_e30dbbdc47f79274ce7909f54a38d1c5 = L.marker(
+                [-7.7439217, 110.4929095],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_7f45dab92867cea58d17c19ce4e2cce5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffa35d4766e51aa5c4d53c8acd0f54c = $(`<div id="html_1ffa35d4766e51aa5c4d53c8acd0f54c" style="width: 100.0%; height: 100.0%;">Candi Sewu</div>`)[0];
+                popup_7f45dab92867cea58d17c19ce4e2cce5.setContent(html_1ffa35d4766e51aa5c4d53c8acd0f54c);
+            
+        
+
+        marker_e30dbbdc47f79274ce7909f54a38d1c5.bindPopup(popup_7f45dab92867cea58d17c19ce4e2cce5)
+        ;
+
+        
+    
+    
+            var marker_78794a9bd7d52b069425611269796725 = L.marker(
+                [-8.1862462, 110.709901],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_1649a0e022f72331f661de3d7a80709a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f13e3e51cdcaa4be08f15f267100f5a = $(`<div id="html_3f13e3e51cdcaa4be08f15f267100f5a" style="width: 100.0%; height: 100.0%;">Pantai Wediombo</div>`)[0];
+                popup_1649a0e022f72331f661de3d7a80709a.setContent(html_3f13e3e51cdcaa4be08f15f267100f5a);
+            
+        
+
+        marker_78794a9bd7d52b069425611269796725.bindPopup(popup_1649a0e022f72331f661de3d7a80709a)
+        ;
+
+        
+    
+    
+            var marker_2baebc6899a7b7a00ea5e28c8fdcaf99 = L.marker(
+                [-8.180135, 110.6763715],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_82d7694ec1949d050000b741faaaeb08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873e2ef193f17fda0b302e11e5783c1d = $(`<div id="html_873e2ef193f17fda0b302e11e5783c1d" style="width: 100.0%; height: 100.0%;">Pantai Jogan</div>`)[0];
+                popup_82d7694ec1949d050000b741faaaeb08.setContent(html_873e2ef193f17fda0b302e11e5783c1d);
+            
+        
+
+        marker_2baebc6899a7b7a00ea5e28c8fdcaf99.bindPopup(popup_82d7694ec1949d050000b741faaaeb08)
+        ;
+
+        
+    
+    
+            var marker_4f5fadc733a3945e163008889ac002b1 = L.marker(
+                [-8.1211475, 110.5142337],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_a2659b3acf106d3f012d00a82a939e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d28fba674384e786c450ca0b14a8c105 = $(`<div id="html_d28fba674384e786c450ca0b14a8c105" style="width: 100.0%; height: 100.0%;">Pantai Ngrenehan</div>`)[0];
+                popup_a2659b3acf106d3f012d00a82a939e38.setContent(html_d28fba674384e786c450ca0b14a8c105);
+            
+        
+
+        marker_4f5fadc733a3945e163008889ac002b1.bindPopup(popup_a2659b3acf106d3f012d00a82a939e38)
+        ;
+
+        
+    
+    
+            var marker_ffd2044cddf0dddd2d6f6c4410ca7c01 = L.marker(
+                [-8.197822, 110.7123397],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_478451ba1fbf425cf0cedcb0a8243b7a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f249d2d4ab329cadad8840cab6fe8c4 = $(`<div id="html_5f249d2d4ab329cadad8840cab6fe8c4" style="width: 100.0%; height: 100.0%;">Pantai Jungwok</div>`)[0];
+                popup_478451ba1fbf425cf0cedcb0a8243b7a.setContent(html_5f249d2d4ab329cadad8840cab6fe8c4);
+            
+        
+
+        marker_ffd2044cddf0dddd2d6f6c4410ca7c01.bindPopup(popup_478451ba1fbf425cf0cedcb0a8243b7a)
+        ;
+
+        
+    
+    
+            var marker_9fbdc30450cf41f9be8f95fd869eeb08 = L.marker(
+                [-8.1978644, 110.7186216],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_4df58412db23190c8e8b041f43b5f06f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f918c6f69f184e8c3f9f39f1b34bf269 = $(`<div id="html_f918c6f69f184e8c3f9f39f1b34bf269" style="width: 100.0%; height: 100.0%;">Pantai Greweng</div>`)[0];
+                popup_4df58412db23190c8e8b041f43b5f06f.setContent(html_f918c6f69f184e8c3f9f39f1b34bf269);
+            
+        
+
+        marker_9fbdc30450cf41f9be8f95fd869eeb08.bindPopup(popup_4df58412db23190c8e8b041f43b5f06f)
+        ;
+
+        
+    
+    
+            var marker_5f84b15968fc1e7943faa75f5e0456c7 = L.marker(
+                [-8.1978943, 110.7208535],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_638087ce26cc72d5341bed21802d9863 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc4b8a58b8303c4433317ce256f6958e = $(`<div id="html_fc4b8a58b8303c4433317ce256f6958e" style="width: 100.0%; height: 100.0%;">Pantai Sedahan</div>`)[0];
+                popup_638087ce26cc72d5341bed21802d9863.setContent(html_fc4b8a58b8303c4433317ce256f6958e);
+            
+        
+
+        marker_5f84b15968fc1e7943faa75f5e0456c7.bindPopup(popup_638087ce26cc72d5341bed21802d9863)
+        ;
+
+        
+    
+    
+            var marker_39d39e123a3c99aa406b1771e8ecd041 = L.marker(
+                [-8.1370556, 110.5746611],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_5bb765eed8ba7adf0c873fa64aa16d51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_160b253792d8aaea941e3939fbd44f67 = $(`<div id="html_160b253792d8aaea941e3939fbd44f67" style="width: 100.0%; height: 100.0%;">Pantai Watu Kodok</div>`)[0];
+                popup_5bb765eed8ba7adf0c873fa64aa16d51.setContent(html_160b253792d8aaea941e3939fbd44f67);
+            
+        
+
+        marker_39d39e123a3c99aa406b1771e8ecd041.bindPopup(popup_5bb765eed8ba7adf0c873fa64aa16d51)
+        ;
+
+        
+    
+    
+            var marker_85d60c9b352a4ab41e9ce87f96ee1f9b = L.marker(
+                [-8.0961535, 110.4350483],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f67da874fe7663a71c278ab97f639d1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5657268e11048c8632798ef76d1f7a55 = $(`<div id="html_5657268e11048c8632798ef76d1f7a55" style="width: 100.0%; height: 100.0%;">Pantai Kesirat</div>`)[0];
+                popup_f67da874fe7663a71c278ab97f639d1b.setContent(html_5657268e11048c8632798ef76d1f7a55);
+            
+        
+
+        marker_85d60c9b352a4ab41e9ce87f96ee1f9b.bindPopup(popup_f67da874fe7663a71c278ab97f639d1b)
+        ;
+
+        
+    
+    
+            var marker_c62ce19c0bceb812561bde539b9af407 = L.marker(
+                [-8.146423, 110.6061408],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_941c4548b0b5e58291ac511832f1fd34 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fe6302ad7324cf8da1bdedc792d2098 = $(`<div id="html_7fe6302ad7324cf8da1bdedc792d2098" style="width: 100.0%; height: 100.0%;">Pantai Ngandong</div>`)[0];
+                popup_941c4548b0b5e58291ac511832f1fd34.setContent(html_7fe6302ad7324cf8da1bdedc792d2098);
+            
+        
+
+        marker_c62ce19c0bceb812561bde539b9af407.bindPopup(popup_941c4548b0b5e58291ac511832f1fd34)
+        ;
+
+        
+    
+    
+            var marker_e436deb50cbb05d7fde19e6f08cd6e3d = L.marker(
+                [-7.8159633, 110.4136917],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_f38c6e209cd6eabb401d67dffd66d296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278466f5c5bf8377656198cbd44a88c0 = $(`<div id="html_278466f5c5bf8377656198cbd44a88c0" style="width: 100.0%; height: 100.0%;">Galaxy Waterpark Jogja</div>`)[0];
+                popup_f38c6e209cd6eabb401d67dffd66d296.setContent(html_278466f5c5bf8377656198cbd44a88c0);
+            
+        
+
+        marker_e436deb50cbb05d7fde19e6f08cd6e3d.bindPopup(popup_f38c6e209cd6eabb401d67dffd66d296)
+        ;
+
+        
+    
+    
+            var marker_8f854c5ce364417386fe4d590e2e04a6 = L.marker(
+                [-7.6258806, 110.371698],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_25a5a9f88633746f958eca02f03ce799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75220a62fec20ad018333908fa36ff79 = $(`<div id="html_75220a62fec20ad018333908fa36ff79" style="width: 100.0%; height: 100.0%;">Desa Wisata Pulesari</div>`)[0];
+                popup_25a5a9f88633746f958eca02f03ce799.setContent(html_75220a62fec20ad018333908fa36ff79);
+            
+        
+
+        marker_8f854c5ce364417386fe4d590e2e04a6.bindPopup(popup_25a5a9f88633746f958eca02f03ce799)
+        ;
+
+        
+    
+    
+            var marker_55ae3c31de356a70de08aed7811a74e4 = L.marker(
+                [-7.8725673, 110.3546963],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_98253ed7cf0f7ebdb6d4a083641400eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d384922f855a410669d8d90ffd90d66b = $(`<div id="html_d384922f855a410669d8d90ffd90d66b" style="width: 100.0%; height: 100.0%;">Desa Wisata Tembi</div>`)[0];
+                popup_98253ed7cf0f7ebdb6d4a083641400eb.setContent(html_d384922f855a410669d8d90ffd90d66b);
+            
+        
+
+        marker_55ae3c31de356a70de08aed7811a74e4.bindPopup(popup_98253ed7cf0f7ebdb6d4a083641400eb)
+        ;
+
+        
+    
+    
+            var marker_2da0d7a320e08b9f6210312a4336ebd2 = L.marker(
+                [-7.6120675, 110.4205209],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_dcccde0974eea64af423aaba761ecc5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb62e024d745191fe657ced1c3e2e86f = $(`<div id="html_eb62e024d745191fe657ced1c3e2e86f" style="width: 100.0%; height: 100.0%;">Wisata Kaliurang</div>`)[0];
+                popup_dcccde0974eea64af423aaba761ecc5d.setContent(html_eb62e024d745191fe657ced1c3e2e86f);
+            
+        
+
+        marker_2da0d7a320e08b9f6210312a4336ebd2.bindPopup(popup_dcccde0974eea64af423aaba761ecc5d)
+        ;
+
+        
+    
+    
+            var marker_a795c3ac3272de5c8e874f01c1951fcf = L.marker(
+                [-7.8496144, 110.478324],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_89945e6b8faacf39e3b31ea37cea03dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79757731e17826f77557e78a6b7a2554 = $(`<div id="html_79757731e17826f77557e78a6b7a2554" style="width: 100.0%; height: 100.0%;">Heha Sky View</div>`)[0];
+                popup_89945e6b8faacf39e3b31ea37cea03dd.setContent(html_79757731e17826f77557e78a6b7a2554);
+            
+        
+
+        marker_a795c3ac3272de5c8e874f01c1951fcf.bindPopup(popup_89945e6b8faacf39e3b31ea37cea03dd)
+        ;
+
+        
+    
+    
+            var marker_c4b944ad9e2a5af77fac0140de6190d7 = L.marker(
+                [-7.7628136, 110.1161626],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_540a11835c51cc0d633054e82f4b1e83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de5546026f551e5f8896a5932188949f = $(`<div id="html_de5546026f551e5f8896a5932188949f" style="width: 100.0%; height: 100.0%;">Taman Sungai Mudal</div>`)[0];
+                popup_540a11835c51cc0d633054e82f4b1e83.setContent(html_de5546026f551e5f8896a5932188949f);
+            
+        
+
+        marker_c4b944ad9e2a5af77fac0140de6190d7.bindPopup(popup_540a11835c51cc0d633054e82f4b1e83)
+        ;
+
+        
+    
+    
+            var marker_9c9ed821a9262aaf0ad54a1c4840c5f1 = L.marker(
+                [-8.1367456, 110.5716362],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_cadbb5867ecd8cd9515eb67182b4704f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c879da5451775e8053bc69a4ec9bed96 = $(`<div id="html_c879da5451775e8053bc69a4ec9bed96" style="width: 100.0%; height: 100.0%;">Pantai Sanglen</div>`)[0];
+                popup_cadbb5867ecd8cd9515eb67182b4704f.setContent(html_c879da5451775e8053bc69a4ec9bed96);
+            
+        
+
+        marker_9c9ed821a9262aaf0ad54a1c4840c5f1.bindPopup(popup_cadbb5867ecd8cd9515eb67182b4704f)
+        ;
+
+        
+    
+    
+            var marker_11d30b08a812702a31c7bbc8bcdd07da = L.marker(
+                [-7.9075425, 110.0535658],
+                {}
+            ).addTo(map_cf1951e7984b23c46660327d855641d8);
+        
+    
+        var popup_42cbc6a8a9ecb326973cab5069dea3c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7c7d94932c19a9cfe44a5bdf446ac0a = $(`<div id="html_d7c7d94932c19a9cfe44a5bdf446ac0a" style="width: 100.0%; height: 100.0%;">Pantai Congot</div>`)[0];
+                popup_42cbc6a8a9ecb326973cab5069dea3c9.setContent(html_d7c7d94932c19a9cfe44a5bdf446ac0a);
+            
+        
+
+        marker_11d30b08a812702a31c7bbc8bcdd07da.bindPopup(popup_42cbc6a8a9ecb326973cab5069dea3c9)
+        ;
+
+        
+    
+</script>
+</html>
