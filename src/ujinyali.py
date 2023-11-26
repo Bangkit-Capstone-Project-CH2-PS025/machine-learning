@@ -1,1 +1,0 @@
-print("kita sedang belajar Git")
