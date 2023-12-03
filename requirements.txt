@@ -2,3 +2,8 @@ pandas
 numpy
 folium
 matplotlib
+tensorflow
+gensim
+nltk
+pysastrawi
+scikit-learn
