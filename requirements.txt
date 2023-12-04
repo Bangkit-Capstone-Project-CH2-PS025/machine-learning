@@ -7,3 +7,6 @@ gensim
 nltk
 pysastrawi
 scikit-learn
+fastapi
+uvicorn
+pydantic
