@@ -57,3 +57,7 @@ async def recommend_place():
 async def carbon_footprint():
     footprint = carbon_footprint_pipeline(total_distance_carbon)
     return footprint
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8888)
