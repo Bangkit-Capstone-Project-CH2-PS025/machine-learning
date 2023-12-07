@@ -31,24 +31,9 @@ async def read_root():
 async def generate_preferences():
     return "Nothing :("
 
-# POST /recommend/all
-# @app.post("/recommend/all")
-# async def recommend_all(item: User):
-#     route, total_distance, recommendation_distance, recommendation_place_name = itinerary_planning_pipeline(datasets, item.city, item.budget, item.duration, item.user_preferences_1, item.user_preferences_2)
-#     result = recommendation_distance[['id', 'place_name', 'description','category', 'city', 'province', 'price', 'rating', 'coordinates']].to_json(orient='records')
-#     json_data = json.loads(result)
-#
-#     # Define global variables
-#     global recommend_place
-#     recommend_place = recommendation_place_name
-#     global total_distance_carbon
-#     total_distance_carbon = total_distance
-#     return json_data
-
 @app.post("/recommend/place_name")
 async def recommend_place_name(item: User):
     route, total_distance, recommendation_distance, recommendation_place_name = itinerary_planning_pipeline(datasets, item.city, item.budget, item.duration, item.user_preferences_1, item.user_preferences_2)
-    result = recommendation_distance[['id', 'place_name', 'description','category', 'city', 'province', 'price', 'rating', 'coordinates']].to_json(orient='records')
     json_data = json.loads(recommendation_place_name.to_json(orient='records'))
 
     # Define global variables
@@ -63,13 +48,6 @@ async def recommend_all():
     result = recommend_distance.to_json(orient='records')
     json_data = json.loads(result)
     return json_data
-
-# GET /recommend/place_name
-# @app.get("/recommend/place_name")
-# async def recommend_place():
-#     result = recommend_place.to_json(orient='records')
-#     json_data = json.loads(result)
-#     return json_data
 
 # GET /calculate/carbon
 @app.get("/calculate/carbon")
