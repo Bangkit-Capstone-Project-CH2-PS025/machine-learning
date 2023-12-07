@@ -6,7 +6,7 @@ import json
 
 # Path file dataset
 file_paths = {
-    "bandung": "D:/Users/PycharmProjects/ItinergoProject/data/attractions/indonesia_clean_v1/city/bandung.csv",  # Sesuaikan dengan path file Anda
+    "bandung": "../../../data/attractions/indonesia_clean_v1/city/bandung.csv",  # Sesuaikan dengan path file Anda
 }
 # Load datasets
 datasets = {key: pd.read_csv(path) for key, path in file_paths.items()}

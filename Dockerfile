@@ -18,4 +18,4 @@ COPY . .
 EXPOSE 8001
 
 # Perintah untuk menjalankan aplikasi menggunakan uvicorn
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8001", "--reload"]
+CMD cd src/modeling/model_v1 && uvicorn main:app --host 0.0.0.0 --port 8001 --reload
