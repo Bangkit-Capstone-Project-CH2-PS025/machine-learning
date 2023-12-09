@@ -6,6 +6,7 @@ from generate_new_preference import GenerateNewPreference
 from recommender_system import RecommenderSystem
 from filtering import Filtering
 from carbon_footprint import CarbonFootprint
+from discover_place import generate_places
 
 total_distance = None
 def itinerary_planning_pipeline(data, city, budget, duration, user_preferences_1, user_preferences_2=None):
@@ -36,6 +37,11 @@ def carbon_footprint_pipeline(total_distance):
     footprint = CarbonFootprint()
     results = footprint.calculate_all(total_distance)
     return results
+
+def discover_place_pipeline(data):
+    result = generate_places(data)
+    return result
+
 
 
 

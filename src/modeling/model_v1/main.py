@@ -1,5 +1,5 @@
 import pandas as pd
-from model_pipelines import itinerary_planning_pipeline, carbon_footprint_pipeline
+from model_pipelines import itinerary_planning_pipeline, carbon_footprint_pipeline, discover_place_pipeline
 from fastapi import FastAPI
 from pydantic import BaseModel
 import json
@@ -8,6 +8,9 @@ import json
 file_paths = {
     "bandung": "../../../data/attractions/indonesia_clean_v1/city/bandung.csv",  # Sesuaikan dengan path file Anda
 }
+
+file_paths_random = pd.read_csv("D:/Users/PycharmProjects/ItinergoProject/data/attractions/random_place/discover_place.csv")
+
 # Load datasets
 datasets = {key: pd.read_csv(path) for key, path in file_paths.items()}
 
@@ -54,6 +57,13 @@ async def recommend_all():
 async def carbon_footprint():
     footprint = carbon_footprint_pipeline(total_distance_carbon)
     return footprint
+
+# GET /generate/place
+@app.get("/generate/place")
+async def discover_place():
+    place = discover_place_pipeline(file_paths_random)
+    result = json.loads(place)
+    return result
 
 if __name__ == "__main__":
     import uvicorn
