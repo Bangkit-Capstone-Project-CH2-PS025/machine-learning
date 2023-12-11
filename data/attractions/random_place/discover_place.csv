@@ -1,31 +1,31 @@
 id,place_name,city,dir
-1,Pulau Tidung,Kepulauan Seribu,image_1
-2,Taman Mini Indonesia Indah,Jakarta Utara,image_2
-3,Pantai Ancol,Jakarta Utara,image_3
-4,Candi Prambanan,Yogyakarta,image_4
-5,Monumen Yogya Kembali,Yogyakarta,image_5
-6,Goa Rancang Kencono,Yogyakarta,image_6
-7,Lembang Park & Zoo,Bandung,image_7
-8,Gunung Papandayan,Bandung,image_8
-9,Curug Anom,Bandung,image_9
-10,Danau Rawa Pening,Semarang,image_10
-11,Waduk Jatibarang,Semarang,image_11
-12,Kota Lama Semarang,Semarang,image_12
-13,Ekowisata Mangrove Wonorejo,Surabaya,image_13
-14,Ciputra Waterpark,Surabaya,image_14
-15,Museum De Javasche Bank,Surabaya,image_15
-16,Pantai Tapak Paderi,Bengkulu,image_16
-17,Rumah Pengasingan Bung Karno,Bengkulu,image_17
-18,Danau Mas,Bengkulu,image_18
-19,Danau Seran,Banjarbaru,image_19
-20,Taman Hutan Raya Sultan Adam,Banjarbaru,image_20
-21,Bukit Batas,Banjarbaru,image_21
-22,Pantai Kuta,Denpasar,image_22
-23,Pantai Pandawa,Denpasar,image_23
-24,Pura Agung Jagatnatha,Denpasar,image_24
-25,Pulau Banda (Banda Neira),Maluku Tengah,image_25
-26,Benteng Amsterdam,Maluku Tengah,image_26
-27,Air Terjun Hoko,Maluku Tenggara,image_27
-28,Pantai Yacoba,Jayapura,image_28
-29,Cyclop Waterfall,Jayapura,image_29
-30,Danau Imfote,Jayapura,image_30
+1,Pulau Tidung,Kepulauan Seribu,images/discover_place/image_1
+2,Taman Mini Indonesia Indah,Jakarta Utara,images/discover_place/image_2
+3,Pantai Ancol,Jakarta Utara,images/discover_place/image_3
+4,Candi Prambanan,Yogyakarta,images/discover_place/image_4
+5,Monumen Yogya Kembali,Yogyakarta,images/discover_place/image_5
+6,Goa Rancang Kencono,Yogyakarta,images/discover_place/image_6
+7,Lembang Park & Zoo,Bandung,images/discover_place/image_7
+8,Gunung Papandayan,Bandung,images/discover_place/image_8
+9,Curug Anom,Bandung,images/discover_place/image_9
+10,Danau Rawa Pening,Semarang,images/discover_place/image_10
+11,Waduk Jatibarang,Semarang,images/discover_place/image_11
+12,Kota Lama Semarang,Semarang,images/discover_place/image_12
+13,Ekowisata Mangrove Wonorejo,Surabaya,images/discover_place/image_13
+14,Ciputra Waterpark,Surabaya,images/discover_place/image_14
+15,Museum De Javasche Bank,Surabaya,images/discover_place/image_15
+16,Pantai Tapak Paderi,Bengkulu,images/discover_place/image_16
+17,Rumah Pengasingan Bung Karno,Bengkulu,images/discover_place/image_17
+18,Danau Mas,Bengkulu,images/discover_place/image_18
+19,Danau Seran,Banjarbaru,images/discover_place/image_19
+20,Taman Hutan Raya Sultan Adam,Banjarbaru,images/discover_place/image_20
+21,Bukit Batas,Banjarbaru,images/discover_place/image_21
+22,Pantai Kuta,Denpasar,images/discover_place/image_22
+23,Pantai Pandawa,Denpasar,images/discover_place/image_23
+24,Pura Agung Jagatnatha,Denpasar,images/discover_place/image_24
+25,Pulau Banda (Banda Neira),Maluku Tengah,images/discover_place/image_25
+26,Benteng Amsterdam,Maluku Tengah,images/discover_place/image_26
+27,Air Terjun Hoko,Maluku Tenggara,images/discover_place/image_27
+28,Pantai Yacoba,Jayapura,images/discover_place/image_28
+29,Cyclop Waterfall,Jayapura,images/discover_place/image_29
+30,Danau Imfote,Jayapura,images/discover_place/image_30
