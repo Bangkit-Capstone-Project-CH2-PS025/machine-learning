@@ -8,7 +8,7 @@ The goal with this dataset is to provide users with information to make informed
 
 For instance, if a popular attraction is unexpectedly crowded, the app could suggest alternative activities or recommend adjusting the timing of visits to optimize the user experience.
 
-# Period Reasonings
+# Period Reasoning
 
 The available year within the dataset: 2020-2022
 
