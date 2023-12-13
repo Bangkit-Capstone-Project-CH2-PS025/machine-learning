@@ -10,9 +10,13 @@ For instance, if a popular attraction is unexpectedly crowded, the app could sug
 
 # Why Choose the Year 2022?
 
+The available year within the dataset: 2020-2022
+
 This year is selected due to the decreased severity of the pandemic and the absence of new variants capable of triggering a significant surge in cases.
 
 Additionally, reports indicate that in the second quarter of 2022, Jakarta experienced a resurgence in community mobility, signaling a positive trend in the city's economic growth. Therefore, we may assume that transportation conditions may have improved compared to earlier stages of the pandemic.
+
+We may find similarities between present mobility with the 2022 compare to other two years.
 
 ## Sources
 Public source: bigquery-public-data.covid19_google_mobility.mobility_report
