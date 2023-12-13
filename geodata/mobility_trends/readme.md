@@ -19,8 +19,8 @@ Additionally, reports indicate that in the second quarter of 2022, Jakarta exper
 We may find similarities between present mobility with the early 2022 compare to earlier period.
 
 ## Sources
-Public source: bigquery-public-data.covid19_google_mobility.mobility_report
-R package: tidycovid2019
+- Public source: bigquery-public-data.covid19_google_mobility.mobility_report
+- R package: tidycovid2019
 
 Baseline in the dataset meaning:
 Baseline days refer to the standard value corresponding to a specific day of the week (median over a five-week period from earlier January in 2020). Assessing the baseline was essential, this is because activities and patterns differ noticeably between weekends and weekdays. By establishing a baseline that reflects the usual behavior for specific weekdays, it becomes easier to identify and understand deviations or changes in behavior on those days.
