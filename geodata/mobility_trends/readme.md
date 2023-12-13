@@ -1,4 +1,4 @@
-# Mobility Trends of COVID-2019 in Jakarta (end of 2021 and 2022)
+# Mobility Trends of COVID-2019 in Jakarta (end of 2021 and early 2022)
 
 Although the pandemic has subsided, these trends offer insights for developing real-time travel information, which could prove valuable for our itinerary application. The dataset focuses on collecting details about transportation options, traffic conditions, and crowd levels at different destinations.
 
