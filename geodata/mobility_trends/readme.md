@@ -14,4 +14,5 @@ This year is selected due to the decreased severity of the pandemic and the abse
 
 Additionally, reports indicate that in the second quarter of 2022, Jakarta experienced a resurgence in community mobility, signaling a positive trend in the city's economic growth. Therefore, we may assume that transportation conditions may have improved compared to earlier stages of the pandemic.
 
+## Sources
 Public source: bigquery-public-data.covid19_google_mobility.mobility_report
