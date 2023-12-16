@@ -1,5 +1,5 @@
 import pandas as pd
-from model_pipelines import itinerary_planning_pipeline, carbon_footprint_pipeline, generate_preferences_pipeline
+from model_pipelines import itinerary_planning_pipeline, carbon_footprint_pipeline, generate_preferences_pipeline, discover_place_pipeline
 from fastapi import FastAPI
 from pydantic import BaseModel
 import json
@@ -58,9 +58,10 @@ async def recommend_place_name(item: User):
     budget_recommend = budget
     global duration_recommend
     duration_recommend = duration
-    global day_rec
-    day_rec = day_recommendation
-    return json_data
+    global recommendation_without_day
+    recommendation_without_day = json_data
+
+    return day_recommendation
 
 @app.get("/recommend/all")
 async def recommend_all():
@@ -91,6 +92,12 @@ async def carbon_footprint():
     json_data = json.dumps(result_dict, indent=1)
     return json_data
 
-@app.get("/recommend/days")
+@app.get("/recommend/without/days")
 async def recommend_days():
-    return day_rec
+    return recommendation_without_day
+
+@app.get("/generate/place")
+async def discover_place():
+    place = discover_place_pipeline(file_paths_random)
+    result = json.loads(place)
+    return result

@@ -10,24 +10,6 @@ from carbon_footprint import CarbonFootprint
 from city_thompson import CityThompson
 from thompson_sampling_generate import ThompsonSamplingGenerate
 from discover_place import generate_places
-import pandas as pd
-
-file_paths = {
-    "bandung": "../../../data/attractions/indonesia_clean_v1/city/bandung.csv",
-    "banjarbaru": "../../../data/attractions/indonesia_clean_v1/city/banjarbaru.csv",
-    "bengkulu": "../../../data/attractions/indonesia_clean_v1/city/bengkulu.csv",
-    "denpasar": "../../../data/attractions/indonesia_clean_v1/city/denpasar.csv",
-    "jakarta": "../../../data/attractions/indonesia_clean_v1/city/jakarta.csv",
-    "jayapura":"../../../data/attractions/indonesia_clean_v1/city/jayapura.csv",
-    "maluku":"../../../data/attractions/indonesia_clean_v1/city/maluku.csv",
-    "semarang":"../../../data/attractions/indonesia_clean_v1/city/semarang.csv",
-    "surabaya":"../../../data/attractions/indonesia_clean_v1/city/surabaya.csv",
-    "yogyakarta":"../../../data/attractions/indonesia_clean_v1/city/yogyakarta.csv"
-}
-
-file_paths_random = pd.read_csv("../../../data/attractions/random_place/discover_place.csv")
-
-datasets = {key: pd.read_csv(path) for key, path in file_paths.items()}
 
 def itinerary_planning_pipeline(data, city, budget, duration, user_preferences_1, user_preferences_2=None):
     # Get user city
