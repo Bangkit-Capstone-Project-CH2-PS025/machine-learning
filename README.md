@@ -1,7 +1,7 @@
-# Itinerary Planning - Machine Learning
-Bangkit 2023 Batch 2 Product-based Capstone
+# Machine Learning Path
+This is the repository CH2-PS025 Bangkit 2023 Batch 2 Product-based Capstone by Machine Learning path
 
-##  Machine Learning Members
+##  Members
 | Bangkit ID | Name | University |
 |-----|-------|------|
 | M643BSX0286   | Theophanie Scholastica Tanzil |  Institut Bio Scientia Internasional Indonesia |
@@ -9,7 +9,7 @@ Bangkit 2023 Batch 2 Product-based Capstone
 | M010BSX1109 | Safira Aulia | Universitas Indonesia |
 
 # Dataset
-The attractions dataset is sourced from [GetLoc](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination) and from [OutScrapping](https://app.outscraper.com/tasks) tools. The images of attractions is sourced from Google Images and we're crawling this dataset using BeautifulSoup library in Python.
+The attractions dataset is sourced from [GetLoc](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination) (5 cities) and from [OutScrapping](https://app.outscraper.com/tasks) tools (5 cities). The images of attractions is sourced from Google Images and we're crawling this dataset using BeautifulSoup library in Python. To enhance the recommendation system, we have cleaned the dataset and removed data outliers. Additionally, we have been mining the text of recommendations using TF-IDF and Word2Vec to extract metadata from dataset to enhance the choices of user preferences.
 
 We've opened the clean dataset to the public, allowing access through our Kaggle dataset.
 
@@ -39,9 +39,19 @@ After optimizing the user's budget, our application employs duration filtering t
 #### 4. Traveling Salesman Problem
 Traveling Salesman Problem (TSP) is about finding the best route to reach a given destination given a set of specific destinations. TSP tried to answer the question about which shortest route the salesperson had to take so that only visited each location once before returning to the starting point. TSP can be optimized with Nearest Neighbors, which is start an one location and repeatedly select the nearest unvisited location until all location have been visited. Our application using Traveling Salesman Problem approach to optimization the attractions and helping user to visited each one before returning to the user starting point.
 ## 3. Carbon Footprint Prediction
+Artificial Neural Network (ANN) is machine learning model designed to mimic the function and structure of the human brain. ANN are intricate networks of interconnected nodes, or neurons, that collaborate to tackle complicated problems.
 
-# Deployment
+Carbon footprint is amount of carbon dioxide emissions associated with all the activities caused directly and indirectly by an individual, organization, or other entity. Our application using ANN model to predicting carbon footprints based on the distance and emissions factor in the transportations with TensorFlow.
 
-# Tools
+# Model Deployment
+We deploy the model using FastAPI by creating a python code. The FastAPI will receive the city, budget, duration, and preferences from the backend, then loaded and after that the model will recommend the itinerary for the given user. The recommendation is returned in JSON format.
+
+## How to run the FastAPI
+- Clone this repository
+- Open terminal and go to the `src/modeling/model_v2`
+- Type `pip install -r requirements.txt`
+- Serve the FastAPI by typing `uvivorn main:app --reload`
+- It will be run on `http://127.0.0.1:8000/` or open `http://127.0.0.1:8000/docs` to see Swagger documentation
 
 # References
+- Hashim, Fazlini & Benjamin, Aida & Abdul Rahman, Syariza. (2019). Estimation of carbon dioxide emissions in a Waste Collection Vehicle Routing Problem. Journal of Advanced Research in Fluid Mechanics and Thermal Sciences. 53. 204-212. 
