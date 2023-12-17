@@ -89,7 +89,7 @@ async def carbon_footprint():
         }
     }
 
-    json_data = json.dumps(result_dict, indent=1)
+    json_data = json.dumps(result_dict)
     return json_data
 
 @app.get("/recommend/without/days")
