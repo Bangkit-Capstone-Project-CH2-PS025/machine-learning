@@ -13,6 +13,10 @@ The attractions dataset is sourced from [GetLoc](https://www.kaggle.com/datasets
 
 We've opened the clean dataset to the public, allowing access through our Kaggle dataset.
 
+# Machine Learning Flow
+![Bangkit Capstone Project - Page 1 (1)](https://github.com/Bangkit-Capstone-Project-CH2-PS025/machine-learning/assets/85800672/4a809083-b89e-45a8-96dc-6f9dbede8219)
+
+
 # Machine Learning Models
 ## 1. Multi-armed Bandit
 A multi-armed Bandit is scenario when a person needs to make sequential decisions while facing uncertainty about which actions will yield the best overall rewards and trying to maximize its reward by selecting from multiple options (or 'arms'). Thompson Sampling is a probabilistic algorithm used in the field of reinforcement learning for balancing the exploration-exploitation trade-off.
