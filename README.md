@@ -1,4 +1,4 @@
-# Machine Learning Path
+# Machine Learning Documentation
 This is the repository CH2-PS025 Bangkit 2023 Batch 2 Product-based Capstone by Machine Learning path
 
 ##  Members
