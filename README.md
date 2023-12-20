@@ -9,22 +9,22 @@ This is the repository CH2-PS025 Bangkit 2023 Batch 2 Product-based Capstone by 
 | M010BSX1109 | Safira Aulia | Universitas Indonesia |
 
 # Dataset
-The attractions dataset is sourced from [GetLoc](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination) (5 cities) and from [OutScrapping](https://app.outscraper.com/tasks) tools (5 cities). The images of attractions is sourced from Google Images and we're crawling this dataset using BeautifulSoup library in Python. To enhance the recommendation system, we have cleaned the dataset and removed data outliers. Additionally, we have been mining the text of recommendations using TF-IDF and Word2Vec to extract metadata from dataset to enhance the choices of user preferences.
+The attractions dataset is derived from [GetLoc](https://www.kaggle.com/datasets/aprabowo/indonesia-tourism-destination) (5 cities) and [OutScrapping](https://app.outscraper.com/tasks) tools (5 cities). The images of attractions is acquired from the Google Images and we obtained this dataset using BeautifulSoup library in Python. To enhance the recommendation system, we have cleaned the dataset and removed the data outliers. Additionally, we demonstrated the text mining for our recommender system using TF-IDF and Word2Vec to extract metadata from dataset to enhance the choices of user preferences.
 
-We've opened the clean dataset to the public, allowing access through our Kaggle dataset.
+We open the clean dataset to the public, allowing access through our Kaggle dataset.
 
 # Machine Learning Flow
 ![Bangkit Capstone Project - Page 1 (4)](https://github.com/Bangkit-Capstone-Project-CH2-PS025/machine-learning/assets/85800672/9f05c1f6-c0f4-4856-bae6-2bbd9cfce6ed)
 
 # Machine Learning Models
 ## 1. Multi-armed Bandit
-A multi-armed Bandit is scenario when a person needs to make sequential decisions while facing uncertainty about which actions will yield the best overall rewards and trying to maximize its reward by selecting from multiple options (or 'arms'). Thompson Sampling is a probabilistic algorithm used in the field of reinforcement learning for balancing the exploration-exploitation trade-off.
+A multi-armed Bandit is a scenario when a person needs to make sequential decisions while facing uncertainty about which actions will yield the best overall rewards and trying to maximize its reward by selecting from multiple options (or 'arms'). Thompson Sampling is a probabilistic algorithm used in the field of reinforcement learning for balancing the exploration-exploitation trade-off.
 
-Our application employs the Thompson Sampling approach to dynamically select keywords for recommending to users, leveraging the uncertainty of choices to optimize recommendations and maximize user satisfaction.
+Our application utilizes the Thompson Sampling approach to dynamically select keywords, enhancing our ability to provide a quality user experience in retrieving recommendations, as well as leveraging the uncertainty of choices to optimize recommendations and maximize user satisfaction.
 
 ## 2. Itinerary Planning
 ### a. Generate New Preference
-Word2Vec is a neural network-based algorithm that learns word embeddings, which are numerical representations of words that capture semantic and syntactic relationship. The Continous Bag of Words (CBOW) model is method for training word embeddings, which are predict a target word given the context word in a sentence.
+Word2Vec is a neural network-based algorithm that learns word embeddings, which are numerical representations of words that capture semantic and syntactic relationship. The Continous Bag of Words (CBOW) model is a method for training word embeddings, which are predict a target word given the context word in a sentence.
 
 Our application employs this approach to generate new preference based on the user's input attraction preferences. For instance, when the user inputs 'wisata' + 'air', the result will be the summation of preferences, wherein Word2Vec will yield 'pantai', so the user preferences will be 'wisata', 'air', and 'pantai'.
 
