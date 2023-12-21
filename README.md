@@ -14,7 +14,8 @@ The attractions dataset is derived from [GetLoc](https://www.kaggle.com/datasets
 We open the clean dataset to the public, allowing access through our Kaggle dataset.
 
 # Machine Learning Flow
-![Bangkit Capstone Project - Page 1 (4)](https://github.com/Bangkit-Capstone-Project-CH2-PS025/machine-learning/assets/85800672/9f05c1f6-c0f4-4856-bae6-2bbd9cfce6ed)
+![Bangkit Capstone Project - Page 1 (8)](https://github.com/Bangkit-Capstone-Project-CH2-PS025/machine-learning/assets/85800672/ecb79d16-6a6b-4190-a74d-cbf88eb9e912)
+
 
 # Machine Learning Models
 ## 1. Multi-armed Bandit
